@@ -1,13 +1,8 @@
-* {
-  box-sizing: border-box;
-}
-
 .gallery {
     margin: 0 10%;
 }
 
-.gallery ul
-{
+.gallery ul {
   float: left;
   width: 100%;
   padding: 0;
@@ -15,28 +10,25 @@
   list-style-type: none;
 }
 
-.gallery li
-{
+.gallery li {
   float: left;
   width: 33.3%;
   padding-top: 100%;
   padding: 0;
   margin: 0;
-  background-color: #000;
+  background-color: #FFF;
   border: 20px solid #fff;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.gallery li a
-{
+.gallery li a {
   display: block;
   width: 100%;
   overflow: hidden;
 }
 
-img
-{
+img {
   display: block;
   max-width: 100%;
   max-height: 100%;
@@ -48,24 +40,15 @@ img
     transition: opacity .25s ease-in;   
 }
 
-/*
-a:hover img, a:focus img
-{
-  opacity: .8;
-  transition: opacity .25s ease-in;  
-}
-*/
 
-#aspect li a
-{
+#aspect li a {
   background-color: #FFF;
   position: relative;
   height: 0;
   padding-top: 100%;
 }
 
-#aspect img
-{
+#aspect img {
   position: absolute;
   left: 0;
   right: 0;
@@ -165,4 +148,17 @@ a:hover img, a:focus img
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+@media screen and (max-width: 1020px) {
+    .gallery li {
+        width: 49%;
+    }
+}
+
+/* ----------------------------- Phone ---------------------------------*/
+@media screen and (max-width: 480px) {
+    .gallery li {
+        width: 98.4%;
+    }
 }
