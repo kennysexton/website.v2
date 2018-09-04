@@ -19,7 +19,7 @@
             <div class="col-xs-8 text-right menu-1">
                 <ul>
                     <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="#">aerial</a></li>
+                    <li><a href="#">Aerial</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
@@ -29,20 +29,25 @@
     </div>
 </nav>
 
-<div class="row">
-  <div class="column">
-    <img src="images/img01.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">      
-  </div>
-  <div class="column">
-    <img src="images/img02.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="images/img03.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="images/img07.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
-</div>   
+<div class="gallery">
+    <ul class="aspect">
+      <li>
+        <img src="images/img01.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">      
+      </li>
+      <li><a href="#">
+        <img src="images/img02.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </a></li>
+      <li>
+        <img src="images/img03.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </li>
+      <li>
+        <img src="images/img07.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </li>
+      <li>
+        <img src="images/img05.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </li>
+    </ul>
+</div>
 
 <div id="myModal" class="modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
@@ -57,11 +62,11 @@
     </div>
 
     <div class="mySlides">
-      <img src="images/img07.jpg" style="width:100%">
+      <img src="images/img03.jpg" style="width:100%">
     </div>
     
     <div class="mySlides">
-      <img src="images/img08.jpg" style="width:100%">
+      <img src="images/img07.jpg" style="width:100%">
     </div>
         
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>

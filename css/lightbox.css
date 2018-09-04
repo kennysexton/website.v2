@@ -2,20 +2,77 @@
   box-sizing: border-box;
 }
 
-.row > .column {
-  padding: 0 0.2%;
+.gallery {
+    margin: 0 10%;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
+.gallery ul
+{
   float: left;
-  width: 24.8%;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 2em 0;
+  list-style-type: none;
 }
+
+.gallery li
+{
+  float: left;
+  width: 33.3%;
+  padding-top: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  border: 20px solid #fff;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery li a
+{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+img
+{
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.gallery img:hover{
+    opacity: .8;
+    transition: opacity .25s ease-in;   
+}
+
+/*
+a:hover img, a:focus img
+{
+  opacity: .8;
+  transition: opacity .25s ease-in;  
+}
+*/
+
+#aspect li a
+{
+  background-color: #FFF;
+  position: relative;
+  height: 0;
+  padding-top: 100%;
+}
+
+#aspect img
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
 
 /* The Modal (background) */
 .modal {
@@ -94,24 +151,15 @@
   opacity: 1;
 }
 
-img {
-  margin-bottom: -4px;
-}
-
 .caption-container {
   text-align: left;
   background-color:rgba(0,0,0,.95);
   padding: 2px 16px;
-  color: white;
+  color: #FFF;
 }
 
 .demo {
   opacity: 0.6;
-}
-
-.column img:hover{
-    opacity: .8;
-    transition: opacity .25s ease-in;   
 }
 
 .active,
