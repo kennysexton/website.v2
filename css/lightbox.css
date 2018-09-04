@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 0.2%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 24.8%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color:rgba(0,0,0,.95);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  margin-top: 3%;
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* The Close Button */
+.close {
+  color: #FFF;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+}
+
+
+.close:hover, .close:focus {
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  opacity: 0.0;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  padding: right
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  opacity: 1;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: left;
+  background-color:rgba(0,0,0,.95);
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.column img:hover{
+    opacity: .8;
+    transition: opacity .25s ease-in;   
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}

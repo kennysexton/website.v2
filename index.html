@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/nav.css">
+</head>
+<body>
+
+<nav class="nav" role="navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-xs-12">
+                <div id="logo"><a href="index.html">Kenny Sexton</div>
+            </div>
+            <div class="col-xs-8 text-right menu-1">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#">aerial</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="row">
+  <div class="column">
+    <img src="images/img01.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">      
+  </div>
+  <div class="column">
+    <img src="images/img02.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/img03.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/img07.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>   
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+    <div class="mySlides">
+      <img src="images/img01.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="images/img02.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="images/img07.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <img src="images/img08.jpg" style="width:100%">
+    </div>
+        
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column">
+      <span class="demo cursor" alt="Nature and sunrise"/>
+    </div>
+    <div class="column">
+      <span class="demo cursor" alt="Trolltunga, Norway"/>
+    </div>
+    <div class="column">
+      <span class="demo cursor" alt="Mountains and fjords"/>
+    </div>
+    <div class="column">
+      <span class="demo cursor" alt="Northern Lights"/>
+    </div>
+  </div>
+</div>
+</body>
+</html>
