@@ -22,7 +22,7 @@
   box-sizing: border-box;
 }
 
-.gallery li a {
+.gallery li .bind {
   display: block;
   width: 100%;
   overflow: hidden;
@@ -35,13 +35,13 @@ img {
   margin: auto;
 }
 
-a:hover img, a:focus img{
+.bind:hover img{
     opacity: .8;
     transition: opacity .25s ease-in;   
 }
 
 
-#aspect li a {
+#aspect li .bind {
   background-color: #FFF;
   position: relative;
   height: 0;
