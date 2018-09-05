@@ -1,8 +1,8 @@
 .gallery {
-    margin: 0 10%;
+    margin: 0 15%;
 }
 
-.gallery ul {
+ .gallery ul {
   float: left;
   width: 100%;
   padding: 0;
@@ -10,14 +10,14 @@
   list-style-type: none;
 }
 
-.gallery li {
+ .gallery li {
   float: left;
   width: 33.3%;
   padding-top: 100%;
   padding: 0;
   margin: 0;
   background-color: #FFF;
-  border: 20px solid #fff;
+  border: 20px solid #FFF;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -35,7 +35,7 @@ img {
   margin: auto;
 }
 
-.gallery img:hover{
+a:hover img, a:focus img{
     opacity: .8;
     transition: opacity .25s ease-in;   
 }
@@ -55,7 +55,6 @@ img {
   top: 0;
   bottom: 0;
 }
-
 
 /* The Modal (background) */
 .modal {
@@ -150,6 +149,7 @@ img {
   opacity: 1;
 }
 
+/* ----------------------------- Tablet ---------------------------------*/
 @media screen and (max-width: 1020px) {
     .gallery li {
         width: 49%;

@@ -10,6 +10,7 @@
 </head>
 <body>
 
+
 <nav class="nav" role="navigation">
     <div class="container">
         <div class="row">
@@ -30,29 +31,29 @@
 </nav>
 
 <div class="gallery">
-    <ul class="aspect">
-      <li>
-        <img src="images/img01.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">      
+    <ul id="aspect">
+      <li><a href="#">
+        <img src="images/img10.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"></a>      
       </li>
-      <li>
-        <img src="images/img02.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-      </a></li>
-      <li>
-        <img src="images/img03.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      <li><a href="#">
+        <img src="images/img02.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow cursor"></a>
+      </li>
+      <li><a href="#">
+          <img src="images/img09.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor"></a>
         </li>
       <li>
         <a href="#">
-          <img src="images/img07.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+          <img src="images/img01.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
         </a>
       </li>
       <li>
         <a href="#">
-          <img src="images/img05.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+          <img src="images/img05.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
         </a>
       </li>
       <li>
         <a href="#">
-          <img src="images/img07.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+          <img src="images/img07.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
         </a>
       </li>
     </ul>
@@ -75,7 +76,7 @@
     </div>
     
     <div class="mySlides">
-      <img src="images/img07.jpg" style="width:100%">
+      <img src="images/img09.jpg" style="width:100%">
     </div>
         
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
