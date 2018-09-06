@@ -81,23 +81,14 @@
 .caption-container {
   text-align: left;
   background-color:rgba(0,0,0,.95);
-  padding: 2px 16px;
+  padding: 2px 12px;
   color: #FFF;
-}
-
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
 }
 
 /* ----------------------------- Tablet ---------------------------------*/
 @media screen and (max-width: 1020px) {
     .gallery li {
-        width: 49%;
+        width: 100%;
     }
 }
 
