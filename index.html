@@ -8,118 +8,138 @@
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
     <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 <body>
-
-<nav class="nav" role="navigation">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4 col-xs-12">
-                <div id="logo"><a href="index.html"/>Kenny Sexton</div>
+<div class="content">
+    <nav class="nav" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    <div id="logo"><a href="index.html"/>Kenny Sexton</div>
+                </div>
+                <div class="col-xs-8 text-right menu-1">
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a>Aerial</a></li>
+                        <li><a>Projects</a></li>
+                        <li><a>About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-xs-8 text-right menu-1">
-                <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a>Aerial</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Contact</a></li>
-                </ul>
+        </div>
+    </nav>
+
+    <div class="gallery">
+        <ul id="aspect">
+          <li>
+            <div class="bind">
+              <img src="images/img10.jpg" onclick="openModal();currentSlide(1)" class="cursor">
+            </div>      
+          </li>
+          <li>
+            <div class="bind">
+              <img src="images/img02.jpg" onclick="openModal();currentSlide(2)" class="cursor">
             </div>
-        </div>
-    </div>
-</nav>
-
-<div class="gallery">
-    <ul id="aspect">
-      <li>
-        <div class="bind">
-          <img src="images/img10.jpg" onclick="openModal();currentSlide(1)" class="cursor">
-        </div>      
-      </li>
-      <li>
-        <div class="bind">
-          <img src="images/img02.jpg" onclick="openModal();currentSlide(2)" class="cursor">
-        </div>
-      </li>
-      <li>
-        <div class="bind">
-          <img src="images/img09.jpg" onclick="openModal();currentSlide(3)" class="cursor">
-          </div>
-      </li>
-      <li>
-        <div class="bind">
-          <img src="images/img01.jpg" onclick="openModal();currentSlide(4)" class="cursor">
-        </div>
-      </li>
-      <li>
-        <div class="bind">
-          <img src="images/img05.jpg" onclick="openModal();currentSlide(4)" class="cursor">
-        </div>
-      </li>
-      <li>
-        <div class="bind">
-          <img src="images/img07.jpg" onclick="openModal();currentSlide(4)" class="cursor">
-        </div>
-      </li>
-      <li>
-        <div class="bind">
-          <img src="images/img12.jpg" onclick="openModal();currentSlide(4)" class="cursor">
-        </div>
-      </li>
-      <li>
-        <div class="bind">
-          <img src="images/img03.jpg" onclick="openModal();currentSlide(4)" class="cursor">
-        </div>
-      </li>
-      <li>
-        <div class="bind">
-          <img src="images/img11.jpg" onclick="openModal();currentSlide(4)" class="cursor">
-        </div>
-      </li>
-    </ul>
-</div>
-
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-    <div class="modal-content">
-
-    <div class="mySlides">
-      <img src="images/img01.jpg" style="width:100%">
+          </li>
+          <li>
+            <div class="bind">
+              <img src="images/img09.jpg" onclick="openModal();currentSlide(3)" class="cursor">
+              </div>
+          </li>
+          <li>
+            <div class="bind">
+              <img src="images/img01.jpg" onclick="openModal();currentSlide(4)" class="cursor">
+            </div>
+          </li>
+          <li>
+            <div class="bind">
+              <img src="images/img05.jpg" onclick="openModal();currentSlide(4)" class="cursor">
+            </div>
+          </li>
+          <li>
+            <div class="bind">
+              <img src="images/img07.jpg" onclick="openModal();currentSlide(4)" class="cursor">
+            </div>
+          </li>
+          <li>
+            <div class="bind">
+              <img src="images/img12.jpg" onclick="openModal();currentSlide(4)" class="cursor">
+            </div>
+          </li>
+          <li>
+            <div class="bind">
+              <img src="images/img03.jpg" onclick="openModal();currentSlide(4)" class="cursor">
+            </div>
+          </li>
+          <li>
+            <div class="bind">
+              <img src="images/img11.jpg" onclick="openModal();currentSlide(4)" class="cursor">
+            </div>
+          </li>
+        </ul>
     </div>
 
-    <div class="mySlides">
-      <img src="images/img02.jpg" style="width:100%">
-    </div>
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
 
-    <div class="mySlides">
-      <img src="images/img03.jpg" style="width:100%">
+        <div class="mySlides">
+          <img src="images/img01.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="images/img02.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="images/img03.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="images/img09.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <div class="column">
+          <span class="demo cursor" alt="Nature and sunrise"/>
+        </div>
+        <div class="column">
+          <span class="demo cursor" alt="Trolltunga, Norway"/>
+        </div>
+        <div class="column">
+          <span class="demo cursor" alt="Mountains and fjords"/>
+        </div>
+        <div class="column">
+          <span class="demo cursor" alt="Northern Lights"/>
+        </div>
+      </div>
     </div>
     
-    <div class="mySlides">
-      <img src="images/img09.jpg" style="width:100%">
+    <div class="footer">
+        <a href="https://www.instagram.com/kenny_sexton/">
+            <div class="circle" id="cir1">
+                <img src="icons/instagram.svg" alt="instagram">
+            </div>
+        </a>
+        <a href="https://github.com/kennysexton/kennysexton.github.io">
+            <div class="circle" id="cir2">
+                <img src="icons/github.svg" alt="github">
+            </div>
+        </a>
+        <a href="https://www.flickr.com/photos/146645820@N03/">
+            <div class="circle" id=cir3>
+                <img src="icons/flickr.svg" alt="flickr">
+            </div>
+        </a>
     </div>
-        
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-    <div class="column">
-      <span class="demo cursor" alt="Nature and sunrise"/>
-    </div>
-    <div class="column">
-      <span class="demo cursor" alt="Trolltunga, Norway"/>
-    </div>
-    <div class="column">
-      <span class="demo cursor" alt="Mountains and fjords"/>
-    </div>
-    <div class="column">
-      <span class="demo cursor" alt="Northern Lights"/>
-    </div>
-  </div>
 </div>
 </body>
 </html>
