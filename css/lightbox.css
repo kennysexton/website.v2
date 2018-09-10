@@ -84,17 +84,3 @@
   padding: 2px 12px;
   color: #FFF;
 }
-
-/* ----------------------------- Tablet ---------------------------------*/
-@media screen and (max-width: 1020px) {
-    .gallery li {
-        width: 100%;
-    }
-}
-
-/* ----------------------------- Phone ---------------------------------*/
-@media screen and (max-width: 480px) {
-    .gallery li {
-        width: 98.4%;
-    }
-}
