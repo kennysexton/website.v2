@@ -57,3 +57,17 @@ img {
   top: 0;
   bottom: 0;
 }
+
+/* ----------------------------- Tablet ---------------------------------*/
+@media screen and (max-width: 1020px) {
+    .gallery li {
+        width: 100%;
+    }
+}
+
+/* ----------------------------- Phone ---------------------------------*/
+@media screen and (max-width: 480px) {
+    .gallery li {
+        width: 98.4%;
+    }
+}
