@@ -96,9 +96,7 @@
   list-style-type: none;
 }
 
-
  .mySlides li {
-
   float: left;
   width: 100%;
   padding: 0%;
@@ -120,16 +118,9 @@
   -webkit-backface-visibility: hidden;
 }
 
-#aspect li .binder {
+.aspect li .binder {
   position: relative;
   height: 100%;
   padding-top: 70%;
 }
 
-#aspect img {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
