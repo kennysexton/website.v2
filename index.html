@@ -22,6 +22,7 @@
 </head>
 <body>
 <div class="content">
+<!----------------------------Nav---------------------------->
     <nav class="nav" role="navigation">
         <div class="container">
             <div class="row">
@@ -40,12 +41,12 @@
             </div>
         </div>
     </nav>
-
+<!----------------------------Gallery---------------------------->
     <div class="gallery">
         <ul class="aspect">
           <li>
             <div class="bind">
-              <img src="images/img10.jpg" onclick="openModal();currentSlide(1)" class="cursor">
+              <img src="images/img01.jpg" onclick="openModal();currentSlide(1)" class="cursor">
             </div>      
           </li>
           <li>
@@ -55,12 +56,12 @@
           </li>
           <li>
             <div class="bind">
-              <img src="images/img09.jpg" onclick="openModal();currentSlide(3)" class="cursor">
+              <img src="images/img03.jpg" onclick="openModal();currentSlide(3)" class="cursor">
               </div>
           </li>
           <li>
             <div class="bind">
-              <img src="images/img01.jpg" onclick="openModal();currentSlide(4)" class="cursor">
+              <img src="images/img04.jpg" onclick="openModal();currentSlide(4)" class="cursor">
             </div>
           </li>
           <li>
@@ -70,7 +71,7 @@
           </li>
           <li>
             <div class="bind">
-              <img src="images/img07.jpg" onclick="openModal();currentSlide(4)" class="cursor">
+              <img src="images/img06.jpg" onclick="openModal();currentSlide(4)" class="cursor">
             </div>
           </li>
           <li>
@@ -90,40 +91,66 @@
           </li>
         </ul>
     </div>
-
+<!----------------------------Lightbox Modal---------------------------->
     <div id="myModal" class="modal">
       <span class="close cursor" onclick="closeModal()">&times;</span>
         <div class="modal-content">
 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 
         <div class="mySlides">
-		<ul class="aspect">
-          <li>
-            <div class="binder">
-              <img src="images/img10.jpg">
-            </div>      
-          </li>
-			</ul>
+					<ul class="aspect">
+          	<li>
+            	<div class="binder">
+              	<img src="images/img01.jpg">
+            	</div>      
+          	</li>
+					</ul>
         </div>
-
-        <div class="mySlides">
-          <ul class="aspect">
-          <li>
-            <div class="binder">
-              <img src="images/img02.jpg">
-            </div>      
-          </li>
-			</ul>
+				<div class="mySlides">
+					<ul class="aspect">
+          	<li>
+            	<div class="binder">
+              	<img src="images/img02.jpg">
+            	</div>      
+          	</li>
+					</ul>
         </div>
-
-        <div class="mySlides">
-          <img src="images/img03.jpg" style="width:100%">
+				<div class="mySlides">
+					<ul class="aspect">
+          	<li>
+            	<div class="binder">
+              	<img src="images/img03.jpg">
+            	</div>      
+          	</li>
+					</ul>
         </div>
-
-        <div class="mySlides">
-          <img src="images/img09.jpg" style="width:100%">
+				<div class="mySlides">
+					<ul class="aspect">
+          	<li>
+            	<div class="binder">
+              	<img src="images/img04.jpg">
+            	</div>      
+          	</li>
+					</ul>
         </div>
-
+				<div class="mySlides">
+					<ul class="aspect">
+          	<li>
+            	<div class="binder">
+              	<img src="images/img05.jpg">
+            	</div>      
+          	</li>
+					</ul>
+        </div>
+				<div class="mySlides">
+					<ul class="aspect">
+          	<li>
+            	<div class="binder">
+              	<img src="images/img07.jpg">
+            	</div>      
+          	</li>
+					</ul>
+        </div>
         
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
@@ -145,7 +172,7 @@
         </div>
       </div>
     </div>
-    
+		<!----------------------------Footer---------------------------->
     <div class="footer">
         <a href="https://www.instagram.com/kenny_sexton/">
             <div class="circle" id="cir1">
