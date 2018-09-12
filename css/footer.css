@@ -12,6 +12,7 @@ https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551  */
 /* ---------- Footer ---------- */
 .footer{
     position: absolute; 
+		z-index: -1;
     width: 100%;
     bottom: 0;
     height: 80px;

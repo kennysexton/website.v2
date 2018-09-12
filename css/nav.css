@@ -35,12 +35,7 @@ nav a:hover, a:active, a:focus {
   z-index: 0;
   
 }
-@media screen and (max-width: 768px) {
-  .nav {
-    padding: 10px 0;
-    border-bottom: 1px solid #666666;
-  }
-}
+
 .nav #logo {
   font-size: 20px;
   margin: 0;
@@ -48,17 +43,14 @@ nav a:hover, a:active, a:focus {
   text-transform: uppercase;
   font-weight: bold;
 }
+
 .nav #logo a {
   color: #000;
 }
 .nav #logo em {
   color: #fff;
 }
-@media screen and (max-width: 768px) {
-  .nav .menu-1, .nav .menu-2 {
-    display: none;
-  }
-}
+
 .nav ul {
   padding: 0;
   margin: .4em 0 0 0;
@@ -91,4 +83,85 @@ nav a:hover, a:active, a:focus {
 
 .nav ul li.active > a {
   color: #000 !important;
+}
+
+#mobile-menu {
+    visibility: hidden;
+    position: absolute;
+    left: 88%;
+    padding:6px;
+}
+
+#nav-close {
+	visibility: hidden;
+	position: absolute;
+}
+
+
+/* ----------------------------- Mobile Nav for Tablet and Below ---------------------------------*/
+@media screen and (max-width: 1020px) {
+    
+	#mobile-menu {
+     visibility: visible;
+    }
+	
+  .nav {
+    z-index: 5;
+		padding: 10px 0;
+  }
+	
+	#nav-close{
+		visibility: visible;
+		font-size: 30px;
+		right: 0px;
+		top: 0px
+	}
+
+	.sidebar {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 55px;
+	}
+
+	.sidebar a {
+		padding: 5px 10px 5px 200px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #919191;
+		display: block;
+		transition: 0.3s;
+		text-align: right;
+	}
+	
+	.nav ul li a:hover, .nav ul li a:focus, .nav ul li a:active {
+  	color: #FFF;
+	}
+	
+	#nav-close:hover{
+		color: #FFF;
+	}
+	
+	.nav ul li.active > a {
+  	color: #FFF !important;
+	}
+	
+	.nav ul li a {
+		color: #919191;	
+	}
+
+	.sidebar .closebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+
 }

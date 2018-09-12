@@ -12,6 +12,7 @@
     
         <!-- JS -->
     <script src="js/lightbox.js"></script>
+		<script src="js/nav.js"></script>
     
         <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -21,26 +22,29 @@
     <link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 <body>
-<div class="content">
+<div id="cont" class="content">
 <!----------------------------Nav---------------------------->
     <nav class="nav" role="navigation">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-xs-12">
-                    <div id="logo"><a href="/"/>Kenny Sexton</div>
-                </div>
-                <div class="col-xs-8 text-right menu-1">
-                    <ul>
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a>Aerial</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a>About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+  	<div class="container">
+    	<div class="row">
+      	<div class="col-sm-4 col-xs-12">
+        	<div id="logo"><a href="index.html"/>Kenny Sexton</div>
         </div>
-    </nav>
+				<a class="menu" href="#" onclick="openNav()"><img id="mobile-menu" src="icons/hamburger.svg"/></a>
+        <div class="col-xs-8 text-right menu-1">
+					<div id="mySidebar" class="sidebar"><a id="nav-close" onclick="closeNav()">&times;</a>
+						<ul>
+							<li class="active"><a>Home</a></li>
+							<li><a href="aerial.html">Aerial</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+    	</div>
+    </div>
+  </nav>
 <!----------------------------Gallery---------------------------->
     <div class="gallery">
         <ul class="aspect">
@@ -86,7 +90,7 @@
           </li>
           <li>
             <div class="bind">
-              <img src="images/img13.jpg" onclick="openModal();currentSlide(4)" class="cursor">
+              <img src="images/img11.jpg" onclick="openModal();currentSlide(4)" class="cursor">
             </div>
           </li>
         </ul>
