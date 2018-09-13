@@ -37,9 +37,8 @@ img {
 }
 
 .bind:hover img{
-  opacity: .8;
-  transition: opacity .25s ease-in;  
-    
+  opacity: .85;
+  transition: opacity .25s ease-in;   
 }
 
 

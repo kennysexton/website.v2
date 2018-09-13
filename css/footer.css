@@ -12,7 +12,7 @@ https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551  */
 /* ---------- Footer ---------- */
 .footer{
     position: absolute; 
-		z-index: -1;
+		z-index: 1;
     width: 100%;
     bottom: 0;
     height: 80px;
@@ -37,7 +37,7 @@ https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551  */
     left: 50%;
     margin-top: -8px;
     margin-left: -8px;
-    position: absolute;  
+    position: absolute; 
 }
 
 .circle:hover {
@@ -58,7 +58,6 @@ https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551  */
     left: 54%;
     margin-left: -30px;
 }
-
 
 /* ----------------------------- Tablet ---------------------------------*/
 
