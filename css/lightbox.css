@@ -82,9 +82,12 @@
 
 .caption-container {
   text-align: left;
-
   padding: 2px 12px;
   color: #FFF;
+}
+
+#caption {
+	visibility: hidden;
 }
 
 /* --------------------- Testing ------------------*/
