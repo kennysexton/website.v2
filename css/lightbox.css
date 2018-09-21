@@ -45,10 +45,6 @@
   display: none;
 }
 
-.cursor {
-  cursor: pointer
-}
-
 /* Next & previous buttons */
 .prev,
 .next {
@@ -90,7 +86,7 @@
 	visibility: hidden;
 }
 
-/* --------------------- Testing ------------------*/
+/* --------------------- Modal aspect maintain ------------------*/
  .mySlides ul {
   float: left;
   width: 100%;

@@ -1,3 +1,7 @@
+.cursor {
+  cursor: pointer
+}
+
 .gallery {
     margin: 0 15%;
 }
@@ -62,6 +66,10 @@ img {
     .gallery li {
         width: 100%;
     }
+	
+		.cursor {
+  		cursor: default;  
+		}
 }
 
 /* ----------------------------- Phone ---------------------------------*/
@@ -69,4 +77,8 @@ img {
     .gallery li {
         width: 98.4%;
     }
+	
+		.cursor {
+  		cursor: default;  
+		}
 }
