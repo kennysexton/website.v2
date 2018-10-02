@@ -11,10 +11,139 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap-min.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/gallery.css">
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+
+	
+				<!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+				<!-- JS -->
+		<script src="js/lightbox.js"></script>
+		<script src="js/nav.js"></script>
 </head>
 <body>
 <div class="content">
 	<div id="navBar"></div> 
+	
+	<div class="gallery" id="full">
+        <ul class="aspect">
+          <li>
+            <div class="bind">
+              <img src="images/aerial/air01.jpg" onclick="openModal();currentSlide(1)" class="cursor">
+            </div>      
+          </li>
+          <li>
+            <div class="bind">
+              <img src="images/aerial/air02.jpg" onclick="openModal();currentSlide(2)" class="cursor">
+            </div>      
+          </li>
+					<li>
+            <div class="bind">
+              <img src="images/aerial/air03.jpg" onclick="openModal();currentSlide(3)" class="cursor">
+            </div>      
+          </li>
+					<li>
+            <div class="bind">
+              <img src="images/aerial/air04.jpg" onclick="openModal();currentSlide(4)" class="cursor">
+            </div>      
+          </li>
+					<li>
+            <div class="bind">
+              <img src="images/aerial/air05.jpg" onclick="openModal();currentSlide(5)" class="cursor">
+            </div>      
+          </li>
+					<li>
+            <div class="bind">
+              <img src="images/aerial/air06.jpg" onclick="openModal();currentSlide(6)" class="cursor">
+            </div>      
+          </li>
+				</ul>
+			</div>
+	
+	<div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+        <div class="mySlides">
+					<ul class="aspect">
+          	<li>
+            	<div class="binder">
+              	<img src="images/aerial/air01.jpg">
+            	</div>      
+          	</li>
+					</ul>
+        </div>
+				<div class="mySlides">
+					<ul class="aspect">
+          	<li>
+            	<div class="binder">
+              	<img src="images/aerial/air02.jpg">
+            	</div>      
+          	</li>
+					</ul>
+        </div>
+				<div class="mySlides">
+					<ul class="aspect">
+          	<li>
+            	<div class="binder">
+              	<img src="images/aerial/air03.jpg">
+            	</div>      
+          	</li>
+					</ul>
+        </div>
+				<div class="mySlides">
+					<ul class="aspect">
+          	<li>
+            	<div class="binder">
+              	<img src="images/aerial/air04.jpg">
+            	</div>      
+          	</li>
+					</ul>
+        </div>
+				<div class="mySlides">
+					<ul class="aspect">
+          	<li>
+            	<div class="binder">
+              	<img src="images/aerial/air05.jpg">
+            	</div>      
+          	</li>
+					</ul>
+        </div>
+				<div class="mySlides">
+					<ul class="aspect">
+          	<li>
+            	<div class="binder">
+              	<img src="images/aerial/air06.jpg">
+            	</div>      
+          	</li>
+					</ul>
+        </div>
+					
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					
+					        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <div class="column">
+          <span class="demo cursor" alt="Nature and sunrise"/>
+        </div>
+        <div class="column">
+          <span class="demo cursor" alt="Trolltunga, Norway"/>
+        </div>
+        <div class="column">
+          <span class="demo cursor" alt="Mountains and fjords"/>
+        </div>
+        <div class="column">
+          <span class="demo cursor" alt="Northern Lights"/>
+
+
+		</div>
+	</div>
+	</div>
+					
 	
 	
 	

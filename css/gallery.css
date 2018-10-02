@@ -26,6 +26,10 @@
   box-sizing: border-box;
 }
 
+#full li{   /* aerial gallery */
+	width: 100%;
+}
+
 .gallery li .bind {
   display: block;
   width: 100%;
