@@ -12,3 +12,8 @@ function closeNav() {
 $(window).on('resize',function(){  // detects change in width
         closeNav();
 });
+
+
+$(function() { // Set Active
+  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+});
