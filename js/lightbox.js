@@ -1,3 +1,4 @@
+// Enable keyboard to navigate though lightbox
 document.onkeydown = function(e) {
     switch (e.keyCode) {
         case 37: // left
@@ -15,7 +16,7 @@ document.onkeydown = function(e) {
 
 // Open the Modal
 function openModal() {  // Modal is disabled for small devices
-	if ($(window).width() > 1020) {	
+	if ($(window).width() > 400) {	//1020
   	document.getElementById('myModal').style.display = "block";
 	}
 }
@@ -42,6 +43,8 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("demo");
+	//console.log(slides);
+	//console.log(dots);
   var captionText = document.getElementById("caption");
     
   if (n > slides.length) {
@@ -55,7 +58,13 @@ function showSlides(n) {
     slides[i].style.display = "none";
   }
  
+	for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
     
   slides[slideIndex-1].style.display = "block";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+	dots[slideIndex-1].className += " active";
+//	console.log(dots[slideIndex-1].title);
+  captionText.innerHTML = dots[slideIndex-1].title;
 }
+

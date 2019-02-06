@@ -8,7 +8,6 @@ function closeNav() {
 }
 
 
-
 $(window).on('resize',function(){  // detects change in width
         closeNav();
 });

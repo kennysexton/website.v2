@@ -1,3 +1,4 @@
+// load in images after the rest of content has loaded in 
 window.addEventListener('load', function(){
     var allimages= document.getElementsByTagName('img');
     for (var i=0; i<allimages.length; i++) {
