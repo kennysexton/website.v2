@@ -16,7 +16,7 @@ document.onkeydown = function(e) {
 
 // Open the Modal
 function openModal() {  // Modal is disabled for small devices
-	if ($(window).width() > 400) {	//1020
+	if ($(window).width() > 1020) {	//1020
   	document.getElementById('myModal').style.display = "block";
 	}
 }
