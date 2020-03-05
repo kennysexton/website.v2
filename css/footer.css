@@ -2,89 +2,88 @@
 https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551  */
 
 .content {
-    min-height: 100vh;
-    overflow: hidden;
-    display: block;
-    position: relative;
-    padding-bottom: 80px;   
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 80px;   
 }
 
 /* ---------- Footer ---------- */
 .footer{
-    position: absolute; 
-		z-index: 1;
-    width: 100%;
-    bottom: 0;
-    height: 80px;
-    background-color: #1d1d1d;
+  position: absolute; 
+  z-index: 1;
+  width: 100%;
+  bottom: 0;
+  height: 80px;
+  background-color: #1d1d1d;
 }
 
 .circle {
-    border-radius: 50%;
-    background-color: #666666;
-    height: 30px;
-    width: 30px;
-    margin-top: 25px;
-    position: relative;
-    display: inline-block;
+  border-radius: 50%;
+  background-color: #666666;
+  height: 30px;
+  width: 30px;
+  margin-top: 25px;
+  position: relative;
+  display: inline-block;
 }
 
 .circle img{
-    color: #ffffff;
-    height: 16px;
-    width: 16px;
-    top: 50%;
-    left: 50%;
-    margin-top: -8px;
-    margin-left: -8px;
-    position: absolute; 
+  color: #ffffff;
+  height: 16px;
+  width: 16px;
+  top: 50%;
+  left: 50%;
+  margin-top: -8px;
+  margin-left: -8px;
+  position: absolute; 
 }
 
 .circle:hover {
-    background-color: #888888;
+  background-color: #888888;
 }
 
 #cir1 {
-    left: 46%;
-    margin-left: -30px;
+  left: 46%;
+  margin-left: -30px;
 }
 
 #cir2 {
-    left: 50%;
-    margin-left: -30px;
+  left: 50%;
+  margin-left: -30px;
 }
 
 #cir3 {
-    left: 54%;
-    margin-left: -30px;
+  left: 54%;
+  margin-left: -30px;
 }
 
 /* ----------------------------- Tablet ---------------------------------*/
 
 @media screen and (max-width: 1020px) {     
-    
-    #cir1 {
-        left: 42%;
-        margin-left: -30px;
-    }
-    
-    #cir3 {
-        left: 58%;
-        margin-left: -30px;
-    }
+
+  #cir1 {
+    left: 42%;
+    margin-left: -30px;
+  }
+
+  #cir3 {
+    left: 58%;
+    margin-left: -30px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    
-     #cir1 {
-        left: 36%;
-        margin-left: -30px;
-    }
-    
-    #cir3 {
-        left: 64%;
-        margin-left: -30px;
-    }
+
+  #cir1 {
+    left: 36%;
+    margin-left: -30px;
+  }
+
+  #cir3 {
+    left: 64%;
+    margin-left: -30px;
+  }
 }
-    
-    
+

@@ -1,126 +1,126 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Here are some of the technical projects I have worked on.">
-    
-        <!-- Title -->
+    <meta name="description" content="Here are some of the technical projects I have worked on.">
+
+    <!-- Title -->
     <title>Kenny - Projects</title>
-        
-        <!-- CSS -->
+
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap-min.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
-		<link rel="stylesheet" type="text/css" href="css/gallery.css">
-	
-				<!-- Font -->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet">
-</head>
-<body>
-<div class="content">
-     <!----------------------------Nav---------------------------->
-    <nav class="nav" role="navigation">
-  	<div class="container">
-    	<div class="row">
-      	<div class="col-sm-4 col-xs-12">
-        	<div id="logo"><a href="index.html"/>Kenny Sexton</div>
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet">
+  </head>
+  <body>
+    <div class="content">
+      <!----------------------------Nav---------------------------->
+      <nav class="nav" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 col-xs-12">
+              <div id="logo"><a href="index.html"/>Kenny Sexton</div>
+            </div>
+            <a class="menu" href="#" onclick="openNav()"><img id="mobile-menu" src="icons/hamburger.svg"/></a>
+            <div class="col-xs-8 text-right menu-1">
+              <div id="mySidebar" class="sidebar"><a id="nav-close" onclick="closeNav()">&times;</a>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="aerial.html">Aerial</a></li>
+                  <li class="active"><a>Projects</a></li>
+                  <li><a href="books.html">Books</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-				<a class="menu" href="#" onclick="openNav()"><img id="mobile-menu" src="icons/hamburger.svg"/></a>
-        <div class="col-xs-8 text-right menu-1">
-					<div id="mySidebar" class="sidebar"><a id="nav-close" onclick="closeNav()">&times;</a>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="aerial.html">Aerial</a></li>
-							<li class="active"><a>Projects</a></li>
-							<li><a href="books.html">Books</a></li>
-						</ul>
-					</div>
-				</div>
-    	</div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Contour Line Printer</h1>
+            <p>Is a Raspberry Pi Robot car that can print out photos uploaded to a webapp.  Uploaded images are converted to a contour line drawing allowing the robot to print your image at any size. <a class="text-nowrap" href="https://github.com/contourlineprinter/capstone" target="_blank">(view project)</a></p>
+          </div>
+          <div class="col-sm-6 bottom-align-text text-right">
+            <h1 class="small">Python, JSP, JS, Google Cloud</h1>
+          </div>
+          <div class="col-lg-12">
+            <img src="images/proj-imgs/contourlineprinter.jpg"/>
+          </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>File System</h1>
+            <p>Is a scaleable FAT file system that operates on an empty drive. Supports a directory structure as well as the ability to add, delete, and write files. <a class="text-nowrap" href="https://github.com/kennysexton/Filesystem" target="_blank">(view project)</a></p>
+          </div>
+          <div class="col-sm-6 bottom-align-text text-right">
+            <h1 class="small">C</h1>
+          </div>
+          <div class="col-lg-12">
+            <img src="images/proj-imgs/filesystem.jpg"/>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Invisible I</h1>
+            <p>Team project to create a web tool for viewing metadata associated with images. <a class="text-nowrap" href="https://github.com/kennysexton/Invisible-I" target="_blank">(view project)</a></p>
+          </div>
+          <div class="col-sm-6 bottom-align-text text-right">
+            <h1 class="small">HTML, CSS, SQL, PHP, JS, jQuery</h1>
+          </div>
+          <div class="col-lg-12">
+            <img src="images/proj-imgs/invisible-i.jpg"/>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Linux Shell</h1>
+            <p>built a functional shell in C.  Allows for advanced features such as pipes, forks, file reading and writing.   <a class="text-nowrap" href="https://github.com/kennysexton/Shell-Project" target="_blank">(view project)</a></p>
+          </div>
+          <div class="col-sm-6 bottom-align-text text-right">
+            <h1 class="small">C</h1>
+          </div>
+          <div class="col-lg-12">
+            <img src="images/proj-imgs/shell.jpg"/>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Mammoth Coffee</h1>
+            <p>Mammoth Coffee is a design re-work for a local philly coffee shop. <a class="text-nowrap" href="https://kennysexton.com/MammothCoffee/index.html" target="_blank">(view project)</a></p>
+          </div>
+          <div class="col-sm-6 bottom-align-text text-right">
+            <h1 class="small">HTML, CSS</h1>
+          </div>
+          <div class="col-lg-12">
+            <img src="images/proj-imgs/mammoth_web.jpg"/>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="footer"></div>   
     </div>
-  </nav>
-	
-	<div class="container">
-      <div class="row">
-			<div class="col-sm-6">
-				<h1>Contour Line Printer</h1>
-				<p>Is a Raspberry Pi Robot car that can print out photos uploaded to a webapp.  Uploaded images are converted to a contour line drawing allowing the robot to print your image at any size. View project <a href="https://github.com/contourlineprinter/capstone" target="_blank">here.</a></p>
-			</div>
-			<div class="col-sm-6 bottom-align-text text-right">
-				<h1 class="small">Python, JSP, JS, Google Cloud</h1>
-			</div>
-			<div class="col-lg-12">
-				<img src="images/proj-imgs/contourlineprinter.jpg"/>
-			</div>
-		</div>
-      <br>
-      <br>
-      
-      <div class="row">
-			<div class="col-sm-6">
-				<h1>File System</h1>
-				<p>Is a scaleable FAT file system that operates on an empty drive. Supports a directory structure as well as the ability to add, delete, and write files. View project <a href="https://github.com/kennysexton/Filesystem" target="_blank">here.</a></p>
-			</div>
-			<div class="col-sm-6 bottom-align-text text-right">
-				<h1 class="small">C</h1>
-			</div>
-			<div class="col-lg-12">
-				<img src="images/proj-imgs/filesystem.jpg"/>
-			</div>
-		</div>
-		<br>
-		<br>
-		<div class="row">
-			<div class="col-sm-6">
-				<h1>Invisible I</h1>
-				<p>Team project to create a web tool for viewing metadata associated with images. View project <a href="https://github.com/kennysexton/Invisible-I" target="_blank">here.</a></p>
-			</div>
-			<div class="col-sm-6 bottom-align-text text-right">
-				<h1 class="small">HTML, CSS, SQL, PHP, JS, jQuery</h1>
-			</div>
-			<div class="col-lg-12">
-				<img src="images/proj-imgs/invisible-i.jpg"/>
-			</div>
-		</div>
-		<br>
-		<br>
-		<div class="row">
-			<div class="col-sm-6">
-				<h1>Linux Shell</h1>
-				<p>built a functional shell in C.  Allows for advanced features such as pipes, forks, file reading and writing. View project <a href="https://github.com/kennysexton/Shell-Project" target="_blank">here.</a></p>
-			</div>
-			<div class="col-sm-6 bottom-align-text text-right">
-				<h1 class="small">C</h1>
-			</div>
-			<div class="col-lg-12">
-				<img src="images/proj-imgs/shell.jpg"/>
-			</div>
-		</div>
-		<br>
-		<br>
-		<div class="row">
-			<div class="col-sm-6">
-				<h1>Mammoth Coffee</h1>
-				<p>Mammoth Coffee is a design re-work for a local philly coffee shop.  The project can be viewed <a href="https://kennysexton.com/MammothCoffee/index.html" target="_blank">here.</a></p>
-			</div>
-			<div class="col-sm-6 bottom-align-text text-right">
-				<h1 class="small">HTML, CSS</h1>
-			</div>
-			<div class="col-lg-12">
-				<img src="images/proj-imgs/mammoth_web.jpg"/>
-			</div>
-		</div>
-	</div>
-	<br>
-  <div id="footer"></div>   
-</div>
-		<!-- JQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-		<!-- JS -->
-<script src="js/nav.js"></script>
-<script src="js/htmlReuse.js"></script>
+    <!-- JS -->
+    <script src="js/nav.js"></script>
+    <script src="js/htmlReuse.js"></script>
 
-</body>
+  </body>
 </html>
