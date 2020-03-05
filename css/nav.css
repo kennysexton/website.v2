@@ -34,7 +34,7 @@ nav a:hover, a:active, a:focus {
   width: 100%;
   padding: 30px 0;
   z-index: 0;
-  
+
 }
 
 .nav #logo {
@@ -86,38 +86,38 @@ nav a:hover, a:active, a:focus {
 }
 
 #mobile-menu {
-    visibility: hidden;
-    position: absolute;
-    left: 88%;
-    padding:6px;
+  visibility: hidden;
+  position: absolute;
+  left: 88%;
+  padding:6px;
 }
 
 #nav-close {
-	visibility: hidden;
-	position: absolute;
+  visibility: hidden;
+  position: absolute;
 }
 
 
 /* ----------------------------- Mobile Nav for Tablet and Below ---------------------------------*/
 @media screen and (max-width: 1020px) {
-    
-	#mobile-menu {
-     visibility: visible;
-    }
-	
+
+  #mobile-menu {
+    visibility: visible;
+  }
+
   .nav {
     z-index: 5;
-		padding: 10px 0;
+    padding: 10px 0;
   }
-	
-	#nav-close{
-		visibility: visible;
-		font-size: 30px;
-		right: 0px;
-		top: 0px
-	}
 
-	.sidebar {
+  #nav-close{
+    visibility: visible;
+    font-size: 30px;
+    right: 0px;
+    top: 0px
+  }
+
+  .sidebar {
     height: 100%;
     width: 0px;
     position: fixed;
@@ -128,40 +128,40 @@ nav a:hover, a:active, a:focus {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 55px;
-	}
+  }
 
-	.sidebar a {
-		padding: 5px 10px 5px 200px;
-		text-decoration: none;
-		font-size: 25px;
-		color: #919191;
-		display: block;
-		transition: 0.3s;
-		text-align: right;
-	}
-	
-	.nav ul li a:hover, .nav ul li a:focus, .nav ul li a:active {
-  	color: #FFF;
-	}
-	
-	#nav-close:hover{
-		color: #FFF;
-	}
-	
-	.nav ul li.active > a {
-  	color: #FFF !important;
-	}
-	
-	.nav ul li a {
-		color: #919191;	
-	}
+  .sidebar a {
+    padding: 5px 10px 5px 200px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #919191;
+    display: block;
+    transition: 0.3s;
+    text-align: right;
+  }
 
-	.sidebar .closebtn {
-		position: absolute;
-		top: 0;
-		right: 25px;
-		font-size: 36px;
-		margin-left: 50px;
-	}
+  .nav ul li a:hover, .nav ul li a:focus, .nav ul li a:active {
+    color: #FFF;
+  }
+
+  #nav-close:hover{
+    color: #FFF;
+  }
+
+  .nav ul li.active > a {
+    color: #FFF !important;
+  }
+
+  .nav ul li a {
+    color: #919191;	
+  }
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
 
 }

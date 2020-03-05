@@ -20,7 +20,7 @@
   margin-top: 2%;
   width: 100%;
   max-width: 1000px;
-	
+
 }
 
 /* The Close Button */
@@ -60,7 +60,7 @@
   transition: 0.6s ease;
   user-select: none;
   -webkit-user-select: none;
-	z-index: 100;
+  z-index: 100;
 }
 
 /* Position the "next button" to the right */
@@ -83,11 +83,11 @@
 }
 
 #caption {
-	visibility: hidden;
+  visibility: hidden;
 }
 
 /* --------------------- Modal aspect maintain ------------------*/
- .mySlides ul {
+.mySlides ul {
   float: left;
   width: 100%;
   padding: 0 0%;
@@ -95,7 +95,7 @@
   list-style-type: none;
 }
 
- .mySlides li {
+.mySlides li {
   float: left;
   width: 100%;
   padding: 0%;

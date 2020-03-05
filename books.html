@@ -1,85 +1,82 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Information about photographer Kenny Sexton">
-    
-        <!-- Title -->
+    <meta name="description" content="Information about photographer Kenny Sexton">
+
+    <!-- Title -->
     <title>Kenny - About</title>
-    
-        <!-- CSS -->
+
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap-min.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
-	
-				<!-- Font -->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet">
-</head>
-<body>
-<div class="content">
-     <!----------------------------Nav---------------------------->
-    <nav class="nav" role="navigation">
-  	<div class="container">
-    	<div class="row">
-      	<div class="col-sm-4 col-xs-12">
-        	<div id="logo"><a href="index.html"/>Kenny Sexton</div>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet">
+  </head>
+  <body>
+    <div class="content">
+      <!----------------------------Nav---------------------------->
+      <nav class="nav" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 col-xs-12">
+              <div id="logo"><a href="index.html"/>Kenny Sexton</div>
+            </div>
+            <a class="menu" href="#" onclick="openNav()"><img id="mobile-menu" src="icons/hamburger.svg"/></a>
+            <div class="col-xs-8 text-right menu-1">
+              <div id="mySidebar" class="sidebar"><a id="nav-close" onclick="closeNav()">&times;</a>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="aerial.html">Aerial</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li class="active"><a href="books.html">Books</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-				<a class="menu" href="#" onclick="openNav()"><img id="mobile-menu" src="icons/hamburger.svg"/></a>
-        <div class="col-xs-8 text-right menu-1">
-					<div id="mySidebar" class="sidebar"><a id="nav-close" onclick="closeNav()">&times;</a>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="aerial.html">Aerial</a></li>
-							<li><a href="projects.html">Projects</a></li>
-							<li class="active"><a href="books.html">Books</a></li>
-						</ul>
-					</div>
-				</div>
-    	</div>
-    </div>
-  </nav>
-	<div class="container">
-      <div class="row">
-            <div class="col-sm-6">
-                <h1>Ride</h1>
-                <p>Photos from a 1,000 Mile solo bike trip starting in Seattle, WA and ending in Missoula, MT.  The full book can be viewed on <a href="https://issuu.com/kennysexton4/docs/bikebook" target="_blank">Issuu.</a></p>
-            </div>
-        <div class="col-sm-6 bottom-align-text text-right">
-                <h1 class="small">Lightroom, Photoshop, Indesign</h1>
-            </div>
-      </div>
-      <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=fuj8438jd" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
-      <br>
-      <br>
-      
-      
-            <div class="row">
-			<div class="col-sm-6">
-				<h1>Iceland</h1>
-				<p>Photos from a spring break trip to Iceland.  The book can be viewed on <a href="https://issuu.com/kennysexton4/docs/iceland" target="_blank">Issuu.</a></p>
-			</div>
-        <div class="col-sm-6 bottom-align-text text-right">
-				<h1 class="small">Lightroom, Photoshop, Indesign</h1>
-			</div>
-      </div>
-      <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=fh5sz02lc" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Ride</h1>
+            <p>Photos from a 1,000 Mile solo bike trip starting in Seattle, WA and ending in Missoula, MT.  <a class="text-nowrap"  href="https://issuu.com/kennysexton4/docs/bikebook" target="_blank">(view full book)</a></p>
+          </div>
+          <div class="col-sm-6 bottom-align-text text-right">
+            <h1 class="small">Lightroom, Photoshop, Indesign</h1>
+          </div>
+        </div>
+        <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=fuj8438jd" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Iceland</h1>
+            <p>Photos from a spring break trip to Iceland. <a class="text-nowrap" href="https://issuu.com/kennysexton4/docs/iceland" target="_blank">(view book)</a></p>
+          </div>
+          <div class="col-sm-6 bottom-align-text text-right">
+            <h1 class="small">Lightroom, Photoshop, Indesign</h1>
+          </div>
+        </div>
+        <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=fh5sz02lc" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
 
-    </div>
-	
- 	<div id="footer"> 
-    
-</div>
-		<!-- JQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      </div>
 
-		<!-- JS -->
-<script src="js/nav.js"></script>
-<script src="js/htmlReuse.js"></script>
-</div>
-</body>
+      <div id="footer"> 
+
+      </div>
+      <!-- JQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <!-- JS -->
+      <script src="js/nav.js"></script>
+      <script src="js/htmlReuse.js"></script>
+    </div>
+  </body>
 </html>
 
-    
-			
+

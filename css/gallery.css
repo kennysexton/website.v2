@@ -3,10 +3,10 @@
 }
 
 .gallery {
-    margin: 0 15%;
+  margin: 0 15%;
 }
 
- .gallery ul {
+.gallery ul {
   float: left;
   width: 100%;
   padding: 0;
@@ -14,7 +14,7 @@
   list-style-type: none;
 }
 
- .gallery li {
+.gallery li {
   float: left;
   width: 33.3%;
   padding-top: 100%;
@@ -27,7 +27,7 @@
 }
 
 #full li{   /* aerial gallery */
-	width: 100%;
+  width: 100%;
 }
 
 .gallery li .bind {
@@ -67,22 +67,22 @@ img {
 
 /* ----------------------------- Tablet ---------------------------------*/
 @media screen and (max-width: 1020px) {
-    .gallery li {
-        width: 100%;
-    }
-	
-		.cursor {
-  		cursor: default;  
-		}
+  .gallery li {
+    width: 100%;
+  }
+
+  .cursor {
+    cursor: default;  
+  }
 }
 
 /* ----------------------------- Phone ---------------------------------*/
 @media screen and (max-width: 480px) {
-    .gallery li {
-        width: 98.4%;
-    }
-	
-		.cursor {
-  		cursor: default;  
-		}
+  .gallery li {
+    width: 98.4%;
+  }
+
+  .cursor {
+    cursor: default;  
+  }
 }
