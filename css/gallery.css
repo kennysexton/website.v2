@@ -49,7 +49,6 @@ img {
   transition: opacity .25s ease-in;   
 }
 
-
 .aspect li .bind {
   background-color: #FFF;
   position: relative;
@@ -69,6 +68,7 @@ img {
 @media screen and (max-width: 1020px) {
   .gallery li {
     width: 100%;
+    border: 10px solid #FFF;
   }
 
   .cursor {
@@ -80,6 +80,7 @@ img {
 @media screen and (max-width: 480px) {
   .gallery li {
     width: 98.4%;
+    border: 0px solid #FFF;
   }
 
   .cursor {
