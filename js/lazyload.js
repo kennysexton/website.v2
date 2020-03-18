@@ -138,38 +138,38 @@ var photoMap = new Map([[
   ]
 ],[
   19 , [
-    "https://lh3.googleusercontent.com/Q2c7PgzH35wFYkYulnpjYZCwIhsjhba9z13oALcQeIiI_N6YpWmhCe-AKMTAVAVNj5mZNHr8V2cgYib1CKGHXEipmqE0BPl9aCCgCLvJN6fyxsX_5yNi77tyZyxnbyZwDBYM8kZWYA=w2400"
+    "https://lh3.googleusercontent.com/cZyJkp16bJ_ygKG5olkuhGLtpAiUOJHkKafnUAmzf3YxD34b2rCtaodLs2cUszTXVX_hzvKj2fDVKwPhStD2ZJygFjorz-eKYm8ZAp6DwzEY1rK0bOiPyYUg4Kt3Jn6M7LA4mzW7Uw=w2400"
     ,
-    "Pink sidewalk sofa in Richmond VA"
+    "Green fern in Boston MA"
   ]
 ],[
   20 , [
-    "https://lh3.googleusercontent.com/Q2c7PgzH35wFYkYulnpjYZCwIhsjhba9z13oALcQeIiI_N6YpWmhCe-AKMTAVAVNj5mZNHr8V2cgYib1CKGHXEipmqE0BPl9aCCgCLvJN6fyxsX_5yNi77tyZyxnbyZwDBYM8kZWYA=w2400"
+    "https://lh3.googleusercontent.com/wC6xbP1IaSugDqTFsfl35vep6VL3PritaMnWmQhmqPu2r4Y5eVF0FsOYYPVS76FPJOV7XdbaysIwjXTBDk6S5Lym4LQsxbBuW_NfAL5Ev0t7nGXLYTnhYfZhAyyde2O8KRcLwAqmaQ=w2400"
     ,
-    "Pink sidewalk sofa in Richmond VA"
+    "Abandoned mill in Crystal Colorado"
   ]
 ],[
   21 , [
-    "https://lh3.googleusercontent.com/Q2c7PgzH35wFYkYulnpjYZCwIhsjhba9z13oALcQeIiI_N6YpWmhCe-AKMTAVAVNj5mZNHr8V2cgYib1CKGHXEipmqE0BPl9aCCgCLvJN6fyxsX_5yNi77tyZyxnbyZwDBYM8kZWYA=w2400"
+    "https://lh3.googleusercontent.com/jkYqt1bclVubwcgvlvW9SUrR1Jyi4YuE6XKMan6TpMFi_QyyWioNz1gxGx8BNDn9_8TYBz-N5kK-nazLxcs2KqtOoy9jycFAnscAXeqmZgL99XOBa1vcy9pjR7OyIhIx8ZfQ5y6ogw=w2400"
     ,
-    "Pink sidewalk sofa in Richmond VA"
+    "Portrait of a friend in a stairwell at an abandoned bottle factory in Pennsylvania"
   ]
 ],[
   22 , [
-    "https://lh3.googleusercontent.com/Q2c7PgzH35wFYkYulnpjYZCwIhsjhba9z13oALcQeIiI_N6YpWmhCe-AKMTAVAVNj5mZNHr8V2cgYib1CKGHXEipmqE0BPl9aCCgCLvJN6fyxsX_5yNi77tyZyxnbyZwDBYM8kZWYA=w2400"
+    "https://lh3.googleusercontent.com/p5vD8MWxvrAaMQKIFHRk8ZeqMhLOyW_bHxzoGEKOBamxZJiwbSIFXQC5Tao_kHDjN-Aw6iBNTca9RRNVFP8GjanktH3Q1M6VHJTTmrAc-8L2FiuBAM57yZ-Cc277qZj6Js_wjtki0w=w2400"
     ,
-    "Pink sidewalk sofa in Richmond VA"
+    "My tent at a campsite in Oregon"
   ]
 ],[
   23 , [
-    "https://lh3.googleusercontent.com/Q2c7PgzH35wFYkYulnpjYZCwIhsjhba9z13oALcQeIiI_N6YpWmhCe-AKMTAVAVNj5mZNHr8V2cgYib1CKGHXEipmqE0BPl9aCCgCLvJN6fyxsX_5yNi77tyZyxnbyZwDBYM8kZWYA=w2400"
+    "https://lh3.googleusercontent.com/WUdcQfPVEW-9VBQxxvr4lMUALKgth_JgXkfZD8JvXhZYG-K0qVBbJW-qfRvdmc3X9EgWuDgmy8oisbuL9Ryzg-Dzmy4roktekTvXYIAVrH7eIw4Cl_rJAsYlZbgvcB3jSQSpRXt0Zw=w2400"
     ,
-    "Pink sidewalk sofa in Richmond VA"
+    "Northern Lights near Reykjavik, Iceland"
   ]
 ],[
   24 , [
-    "https://lh3.googleusercontent.com/Q2c7PgzH35wFYkYulnpjYZCwIhsjhba9z13oALcQeIiI_N6YpWmhCe-AKMTAVAVNj5mZNHr8V2cgYib1CKGHXEipmqE0BPl9aCCgCLvJN6fyxsX_5yNi77tyZyxnbyZwDBYM8kZWYA=w2400"
+    "https://lh3.googleusercontent.com/2FGCaCEEwwzY2HxinpJXvrobnqn8mWi5nDPl0JXwx6KJNhlfGDDTXNP6mcOMpKz_MyvmulFHAhAx0Sy9-5hl6_613Z3fzWua9XeP4Kqdy2QicqlhYugq8uQUuGmn0z7BJOLfE30l8Q=w2400"
     ,
-    "Pink sidewalk sofa in Richmond VA"
+    "A stranger standing on top of an abandoned plane in Iceland"
   ]
 ]]);
