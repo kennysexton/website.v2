@@ -3,27 +3,25 @@ const GALLERY_SIZE = 24;
 
 // load in images after the rest of content has loaded in 
 window.addEventListener('load', function(){
-  
+
   // Grabs all image tags.  This means allImages.length is (GALLERY_SIZE * 2) 1 for grid, 1 for lightbox
-  var allImages= document.getElementsByTagName('img');
-  
+  var allImages= document.getElementsByClassName('photo');
+
   // Size check
   console.log(GALLERY_SIZE + "code | length" + allImages.length );
-  console.log(allImages[0]);
-  
+  console.log(allImages.length);
+
+
   for (var i=1; i<=allImages.length; i++) {
-    
-    // prevents code from changing the attributes of non-gallery <img> tags
-    if (allImages[i].getAttribute('data-src')) {
-      try {
-//        allImages[i].setAttribute('src', allImages[i].getAttribute('data-src'));
-        console.log("math: i%24 = " + i % GALLERY_SIZE);
-        allImages[i].setAttribute('src', photoMap.get(i % GALLERY_SIZE)[0]);
-        allImages[i].setAttribute('alt', photoMap.get(i % GALLERY_SIZE)[1]);
-      } catch(e) {
-        console.error("Image " +  i + " ERROR: " + e);
-      }
+    try {
+      //        allImages[i].setAttribute('src', allImages[i].getAttribute('data-src'));
+      console.log("math: i%24 = " + i % GALLERY_SIZE);
+      allImages[i].setAttribute('src', photoMap.get(i % GALLERY_SIZE)[0]);
+      allImages[i].setAttribute('alt', photoMap.get(i % GALLERY_SIZE)[1]);
+    } catch(e) {
+      console.error("Image " +  i + " ERROR: " + e);
     }
+
   }
 }, false)
 
