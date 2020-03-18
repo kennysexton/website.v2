@@ -36,17 +36,140 @@ var photoMap = new Map([[
     "Iceland portrait"
   ]
 ],[
-  2, ["https://lh3.googleusercontent.com/0rKANsq6E3i12L9kZwENTPL2B-YTuL96yEw1bMyfvIK-VW5SQg7tTQ0gcwmQoATD8sVkLXMXLDBQMW3k65tjE4mJHM9pyQLz0VctN0nmVb1QB9AJhH0Tn2eTs6Tk5zJTrPsUC94F9A=w2400"
+  2, ["https://lh3.googleusercontent.com/Z-mVf3I3SlzZBBnIc1JoN7wwsB8tquZbuNpQpBp7HYnfHohX_CmRx2eaMhbUdXI9qDXbC8bLsU7ZHsQ3_Rg0_gLjnXoavokefwGwPZm4GvWEfDOuO94nIpon92sjDzZUKAgl-WTG8A=w2400"
       ,
-      "Bird landing"
+      "Snowy day in Philadelphia"
      ]
 ],[
   3 , [
-    "https://lh3.googleusercontent.com/GDaq0Ijd4_1HFd40cRzbYl_I7D1ZYPIew5E1fUudX50PzZd92Hm0fOEDvB80bVSrUF7MWUcDU-A_s3xbO5Zj87IV_LXTHzxmYY97Z_t7qk43u3dwFDkm9dOYIzWjj6adEdm5pSQ4Cg=w2400"
+    "https://lh3.googleusercontent.com/ckLouU_yU2GYct4HwteyJI5gs_FMNRAX1Z8SMnLcazUFHEuNi4ZviPOoiytiRGgx4zO2jCM4Qvb8R-Q37TBAVQkxOKWYOgjQYw4Hze6C6TcNU5HGaClhy6s52wNysWuSOCchqUh7Vg=w2400"
     ,
-    "New Hampshire Shed"
+    "Iceland waterfall"
   ]
 ],[
-
-
+  4 , [
+    "https://lh3.googleusercontent.com/WoohXr_N_l0M3B2f2uamcYrAw7iwgSQpnINgmWUPLSl6NhtQ4nBXzTnZatYFD2SCiVYCeeWkN2TVn6YYgN46ixyaCVRL9-HP9fPHp0OscV6p_0-Hkrf7aNOkRQwd-e5M1PG_Cyp7zw=w2400"
+    ,
+    "Dairy block in Devner"
+  ]
+],[
+  5 , [
+    "https://lh3.googleusercontent.com/0rKANsq6E3i12L9kZwENTPL2B-YTuL96yEw1bMyfvIK-VW5SQg7tTQ0gcwmQoATD8sVkLXMXLDBQMW3k65tjE4mJHM9pyQLz0VctN0nmVb1QB9AJhH0Tn2eTs6Tk5zJTrPsUC94F9A=w2400"
+    ,
+    "Bird landing on hand"
+  ]
+],[
+  6 , [
+    "https://lh3.googleusercontent.com/Ycbw5lPTpC0JIORwLsC5aTCpm9yfaTbx9PEDlyYNOkrlspXOJXammzIRsJ7PVlywWF2NtOyT9d25QqBqU2ifagzpZSleLWQmVYXew5RTfo6ZfpChas2iD2zqS_bxj9oIB70ZcCwbYw=w2400"
+    ,
+    "Building near the mall in Washington DC"
+  ]
+],[
+  7 , [
+    "https://lh3.googleusercontent.com/Q2c7PgzH35wFYkYulnpjYZCwIhsjhba9z13oALcQeIiI_N6YpWmhCe-AKMTAVAVNj5mZNHr8V2cgYib1CKGHXEipmqE0BPl9aCCgCLvJN6fyxsX_5yNi77tyZyxnbyZwDBYM8kZWYA=w2400"
+    ,
+    "Pink sidewalk sofa in Richmond VA"
+  ]
+],[
+  8 , [
+    "https://lh3.googleusercontent.com/qJaIStf2DztM65W46kppsap9-2EcaePSJZgoIszsCPROj6JxHgt-49fYiZxDwGDI8_8N1LTBqOKPCs4BbAgRVNlfGqW_IWta-k9XtHAJh_-5pz75XeTaA_3UkFxIDB_C1ijSuP2t9w=w2400"
+    ,
+    "Two bikers in Denver, CO"
+  ]
+],[
+  9 , [
+    "https://lh3.googleusercontent.com/Kjmocs-fUXcUs63okSIdkVuQ8cn6Z3BoHLY6e5L3TrBhpswa2jMmtuHPyKMAQaOQhPI_zw0f6luk92F4OJZS8X5W0ipkZXHvKXB3UZlrYgwjY0zB-eoFWdvhUXxhtezsu4r20sK2wQ=w2400"
+    ,
+    "Foggy morning outside a Bates State Park in Austin, OR"
+  ]
+],[
+  10 , [
+    "https://lh3.googleusercontent.com/O5T_ISYeDCftN0SR51XxEOeGZdOn1KMjPhJUN6wug5LAKtAvfpf68WA7JH84NOWl7cWdYO6jcD_N4mf8dxmhKqveMM8E420ky7O3Iehh61y2L19tRbDjBdyv6s2_Qmt6NHtpUSg8Jg=w2400"
+    ,
+    "Sunset on the hike to Crystal Mill in Colorado"
+  ]
+],[
+  11 , [
+    "https://lh3.googleusercontent.com/7T6lohYb3-v9DLDvLYbVE6F3QOiPwvyQSKwZHIoARrz7QisgsBSQqwrn290_N7d3QKfE1WyYSAGZ8O7Z4c5LiSi6pv2MW6Maik5RifyrAP3EbneNXbDS0OvPeC2K7yqBSmTy4ul3yQ=w2400"
+    ,
+    "View from the Reading Viaduct in Philadelphia"
+  ]
+],[
+  12 , [
+    "https://lh3.googleusercontent.com/_Xw80IQthl1GbyNu0E2GPItLugI84NxdGMoS0nhKkMP-yGY-b1tI8oqhJXWfabyKXaB8tv9zntL6tyVpBft_x2o0rd4Mz0AjkeN0gu1WzTOZNE5jOyTJTNSs4VzgNLsrLYlUAIirPg=w2400"
+    ,
+    "Sunset in Grand Teton National Park in Wyoming"
+  ]
+],[
+  13 , [
+    "https://lh3.googleusercontent.com/mta6jwxSPuTRHrCexfEJBBtoR4Cowb3uLCnnOXYf-P9yBwOOrnRQ9RacaxZu9BpJhC0Z12skm-8GbkgbR7FTtuUj3XCoej5Qir7eY_A9FnT7g6yDXD3a9iaVSifKfbnCUAQPKTAvWg=w2400"
+    ,
+    "Watching a friend take a photo in the Olympic Peninsula in Washington"
+  ]
+],[
+  14 , [
+    "https://lh3.googleusercontent.com/H3DP-SXD_AW9JQudEtrL0UYSdFra8mknzAP2CqpWvgSkyodjs6roj2u6b2ZMD-O1I3wC7jFa-zrdUwKF_GRTNDH1WHxbClGg70R4uUh_waLafJky6U7XI67UCRR-BbyKhopmyxdhbQ=w2400"
+    ,
+    "Portrait in Chinatown in Montreal"
+  ]
+],[
+  15 , [
+    "https://lh3.googleusercontent.com/4WWiLPhXP2JYCC_03oeoSOIGxUhGO5co6g1dgNlk0CGB7pZ4GwvurlX7wAIxEN_OXNw9k_0-rCZ6p_U4dUpHCiesc7EKP1nwyzMMuAEsjDhIbrnIcYWccQ31DaUrc195DNJKpg-90g=w2400"
+    ,
+    "Building in the Olympic Peninsula, Washington"
+  ]
+],[
+  16 , [
+    "https://lh3.googleusercontent.com/wkBHMWSTArMW89GOeKc0aeEVobCZBqxUx-956o7HtG3jwAjERBpSXO8xlvyg8A4Htsi5AVHuf3P4X5GublB-1g-jrR1iBV6iYBuTjXNFHofbFpITt4iPQRKNz84u6JO2PZQXNeGbqQ=w2400"
+    ,
+    "Large American Flag in Boston, MA"
+  ]
+],[
+  17 , [
+    "https://lh3.googleusercontent.com/oZGdopLRlZPOzvcUYxKZpP_dLnnDhV0euBsfsGcY97Bl-h_owsJcZECYe-IwRKGMwXatXH_sFP41hQtnKb_x47Qj3WqVwP85BWF5mqZxieYd2N7kPV7Di58lBfe8osF0E3f_NqapeQ=w2400"
+    ,
+    "Flatiron building in New York City"
+  ]
+],[
+  18 , [
+    "https://lh3.googleusercontent.com/fwUtSFAUbZEbM3iKAgtkvTs6yy9fLmZ6pMQLCc4qvxVSc0lpW1714k8H1GawQT8GLTS8nWqxf4c58zFGgadSLVvqs_1N8Q9iopV9MnvhrftB4BdD9jSIwgS0EvtnfG2x171SeQHDUg=w2400"
+    ,
+    "Drone shot of City Hall in Philadelphia"
+  ]
+],[
+  19 , [
+    "https://lh3.googleusercontent.com/Q2c7PgzH35wFYkYulnpjYZCwIhsjhba9z13oALcQeIiI_N6YpWmhCe-AKMTAVAVNj5mZNHr8V2cgYib1CKGHXEipmqE0BPl9aCCgCLvJN6fyxsX_5yNi77tyZyxnbyZwDBYM8kZWYA=w2400"
+    ,
+    "Pink sidewalk sofa in Richmond VA"
+  ]
+],[
+  20 , [
+    "https://lh3.googleusercontent.com/Q2c7PgzH35wFYkYulnpjYZCwIhsjhba9z13oALcQeIiI_N6YpWmhCe-AKMTAVAVNj5mZNHr8V2cgYib1CKGHXEipmqE0BPl9aCCgCLvJN6fyxsX_5yNi77tyZyxnbyZwDBYM8kZWYA=w2400"
+    ,
+    "Pink sidewalk sofa in Richmond VA"
+  ]
+],[
+  21 , [
+    "https://lh3.googleusercontent.com/Q2c7PgzH35wFYkYulnpjYZCwIhsjhba9z13oALcQeIiI_N6YpWmhCe-AKMTAVAVNj5mZNHr8V2cgYib1CKGHXEipmqE0BPl9aCCgCLvJN6fyxsX_5yNi77tyZyxnbyZwDBYM8kZWYA=w2400"
+    ,
+    "Pink sidewalk sofa in Richmond VA"
+  ]
+],[
+  22 , [
+    "https://lh3.googleusercontent.com/Q2c7PgzH35wFYkYulnpjYZCwIhsjhba9z13oALcQeIiI_N6YpWmhCe-AKMTAVAVNj5mZNHr8V2cgYib1CKGHXEipmqE0BPl9aCCgCLvJN6fyxsX_5yNi77tyZyxnbyZwDBYM8kZWYA=w2400"
+    ,
+    "Pink sidewalk sofa in Richmond VA"
+  ]
+],[
+  23 , [
+    "https://lh3.googleusercontent.com/Q2c7PgzH35wFYkYulnpjYZCwIhsjhba9z13oALcQeIiI_N6YpWmhCe-AKMTAVAVNj5mZNHr8V2cgYib1CKGHXEipmqE0BPl9aCCgCLvJN6fyxsX_5yNi77tyZyxnbyZwDBYM8kZWYA=w2400"
+    ,
+    "Pink sidewalk sofa in Richmond VA"
+  ]
+],[
+  24 , [
+    "https://lh3.googleusercontent.com/Q2c7PgzH35wFYkYulnpjYZCwIhsjhba9z13oALcQeIiI_N6YpWmhCe-AKMTAVAVNj5mZNHr8V2cgYib1CKGHXEipmqE0BPl9aCCgCLvJN6fyxsX_5yNi77tyZyxnbyZwDBYM8kZWYA=w2400"
+    ,
+    "Pink sidewalk sofa in Richmond VA"
+  ]
 ]]);
