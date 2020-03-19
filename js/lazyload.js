@@ -1,38 +1,34 @@
-// This number must reflect number of images used in gallery
-const GALLERY_SIZE = 24;
-
 // load in images after the rest of content has loaded in 
 window.addEventListener('load', function(){
 
   // Grabs all gallery photos, each photo shows up twice 1 for grid, 1 for lightbox
   var allImages= document.getElementsByClassName('photo');
 
-  // Size check
-  if(GALLERY_SIZE * 2 != allImages.length){
-    console.error("check const GALLERY_SIZE: " + GALLERY_SIZE + " *2 != " +  allImages.length );
-  }
+  // Get gallery size
+  var gallerySize = allImages.length/2
+  console.log("Number of images in gallery: " + gallerySize ) 
 
   // Loop through 
   for (var i=1; i<=allImages.length; i++) {
     try {
       // Set src tag
-      allImages[i-1].setAttribute('src', photoMap.get(getPhotoMapValue(i))[0]);
+      allImages[i-1].setAttribute('src', photoMap.get(getPhotoMapValue(i, gallerySize))[0]);
 
       // Set alt tag
-      allImages[i-1].setAttribute('alt', photoMap.get(getPhotoMapValue(i))[1]);
+      allImages[i-1].setAttribute('alt', photoMap.get(getPhotoMapValue(i, gallerySize))[1]);
     } catch(e) {
-      console.error("Image " +  i + " ERROR: " + e);
+      console.error("Image: " +  i + " ERROR: " + e);
     }
 
   }
 }, false)
 
 // fix for last gallery value (ex. 24 % 24 == 0)
-function getPhotoMapValue(i){
-  if(i== GALLERY_SIZE || i== GALLERY_SIZE*2){
-    return GALLERY_SIZE
+function getPhotoMapValue(i, gallerySize){
+  if(i== gallerySize || i== gallerySize*2){
+    return gallerySize
   } else {
-    return i % GALLERY_SIZE
+    return i % gallerySize
   }
 
 }
