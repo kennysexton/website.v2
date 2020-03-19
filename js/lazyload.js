@@ -4,26 +4,38 @@ const GALLERY_SIZE = 24;
 // load in images after the rest of content has loaded in 
 window.addEventListener('load', function(){
 
-  // Grabs all image tags.  This means allImages.length is (GALLERY_SIZE * 2) 1 for grid, 1 for lightbox
+  // Grabs all gallery photos, each photo shows up twice 1 for grid, 1 for lightbox
   var allImages= document.getElementsByClassName('photo');
 
   // Size check
-  console.log(GALLERY_SIZE + "code | length" + allImages.length );
-  console.log(allImages.length);
+  if(GALLERY_SIZE * 2 != allImages.length){
+    console.error("check const GALLERY_SIZE: " + GALLERY_SIZE + " *2 != " +  allImages.length );
+  }
 
-
+  // Loop through 
   for (var i=1; i<=allImages.length; i++) {
     try {
-      //        allImages[i].setAttribute('src', allImages[i].getAttribute('data-src'));
-      console.log("math: i%24 = " + i % GALLERY_SIZE);
-      allImages[i].setAttribute('src', photoMap.get(i % GALLERY_SIZE)[0]);
-      allImages[i].setAttribute('alt', photoMap.get(i % GALLERY_SIZE)[1]);
+      // Set src tag
+      allImages[i-1].setAttribute('src', photoMap.get(getPhotoMapValue(i))[0]);
+
+      // Set alt tag
+      allImages[i-1].setAttribute('alt', photoMap.get(getPhotoMapValue(i))[1]);
     } catch(e) {
       console.error("Image " +  i + " ERROR: " + e);
     }
 
   }
 }, false)
+
+// fix for last gallery value (ex. 24 % 24 == 0)
+function getPhotoMapValue(i){
+  if(i== GALLERY_SIZE || i== GALLERY_SIZE*2){
+    return GALLERY_SIZE
+  } else {
+    return i % GALLERY_SIZE
+  }
+
+}
 
 // MAP [key, value]
 //     [1, [url, description]
@@ -142,9 +154,9 @@ var photoMap = new Map([[
   ]
 ],[
   20 , [
-    "https://lh3.googleusercontent.com/wC6xbP1IaSugDqTFsfl35vep6VL3PritaMnWmQhmqPu2r4Y5eVF0FsOYYPVS76FPJOV7XdbaysIwjXTBDk6S5Lym4LQsxbBuW_NfAL5Ev0t7nGXLYTnhYfZhAyyde2O8KRcLwAqmaQ=w2400"
+    "https://lh3.googleusercontent.com/p5vD8MWxvrAaMQKIFHRk8ZeqMhLOyW_bHxzoGEKOBamxZJiwbSIFXQC5Tao_kHDjN-Aw6iBNTca9RRNVFP8GjanktH3Q1M6VHJTTmrAc-8L2FiuBAM57yZ-Cc277qZj6Js_wjtki0w=w2400"
     ,
-    "Abandoned mill in Crystal Colorado"
+    "My tent at a campsite in Oregon"
   ]
 ],[
   21 , [
@@ -154,9 +166,9 @@ var photoMap = new Map([[
   ]
 ],[
   22 , [
-    "https://lh3.googleusercontent.com/p5vD8MWxvrAaMQKIFHRk8ZeqMhLOyW_bHxzoGEKOBamxZJiwbSIFXQC5Tao_kHDjN-Aw6iBNTca9RRNVFP8GjanktH3Q1M6VHJTTmrAc-8L2FiuBAM57yZ-Cc277qZj6Js_wjtki0w=w2400"
+    "https://lh3.googleusercontent.com/wC6xbP1IaSugDqTFsfl35vep6VL3PritaMnWmQhmqPu2r4Y5eVF0FsOYYPVS76FPJOV7XdbaysIwjXTBDk6S5Lym4LQsxbBuW_NfAL5Ev0t7nGXLYTnhYfZhAyyde2O8KRcLwAqmaQ=w2400"
     ,
-    "My tent at a campsite in Oregon"
+    "Abandoned mill in Crystal Colorado"
   ]
 ],[
   23 , [
