@@ -1,0 +1,26 @@
+{
+  "name": "Kenny's Portfolio",
+  "short_name": "Portfolio",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#1d1d1d",
+  "theme_color": "#cccccc",
+  "description": "A portfolio showing off the work of Kenny Sexton",
+  "icons": [{
+    "src": "icons/touch/icon96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "icons/touch/icon144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "icons/touch/icon192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "icons/touch/icon512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
