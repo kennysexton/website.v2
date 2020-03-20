@@ -1,9 +1,0 @@
-{
-  "short_name": "Portfolio",
-  "name": "Kenny's Portfolio",
-
-  "start_url": "/?source=pwa",
-  "background_color": "#FFF",
-  "display": "standalone",
-  "theme_color": "#1d1d1d"
-}
