@@ -14,7 +14,7 @@ I started this project in 2017 as a way to teach myself web development. The con
 
 ![Lazy Loading](https://imgur.com/JZbU6x0.jpg)
 
-The website uses lazy loading avoid performance problems caused from the heavy network demand of loading many photos.  The gallery will first load a spinner to keep the page responsive.
+The website uses lazy loading avoid performance problems caused from the heavy network demand of loading photos.  The gallery will first load a spinner to keep the page responsive.
 
 ![Lighthouse Performance](https://imgur.com/SftVqdT.jpg)
 
@@ -22,4 +22,4 @@ Once all page content is loaded, then the browser will begin swapping the spinne
 
 ## Hosting
 
-kennysexton.com is a static webpage hosted using github pages.  
+kennysexton.com is a static webpage hosted using github pages. The webpage can be access from both a custom URL ([kennysexton.com](https://kennysexton.com)) and the default URL of ([kennysexton.github.io](http://kennysexton.github.io/)).  More information on how that is done can be found [here](https://help.github.com/en/github/working-with-github-pages/about-custom-domains-and-github-pages).
