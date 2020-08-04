@@ -1,4 +1,10 @@
+/* on photo click,  this gets toggled to visible*/
+#myModal{
+	display: none;
+}
+
 /* The Modal (background) */
+
 .modal {
   display: flex;
 	flex-direction: column;
@@ -32,6 +38,10 @@
   color: #FFF;
   text-decoration: none;
   cursor: pointer;
+}
+
+.mySlides {	
+  display: none;	
 }
 
 /* Next & previous buttons */
