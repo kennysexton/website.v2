@@ -1,81 +1,81 @@
 .cursor {
-  cursor: pointer
+	cursor: pointer
 }
 
 .gallery {
-  margin: 0 15%;
+	margin: 0 15%;
 }
 
 .gallery ul {
-  float: left;
-  width: 100%;
-  padding: 0;
-  margin: 0 0 2em 0;
-  list-style-type: none;
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0 0 2em 0;
+	list-style-type: none;
 }
 
 .gallery li {
-  float: left;
-  width: 33.3%;
-  padding-top: 100%;
-  padding: 0;
-  margin: 0;
-  background-color: #FFF;
-  border: 20px solid #FFF;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+	float: left;
+	width: 33.3%;
+	padding-top: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #FFF;
+	border: 20px solid #FFF;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 #full li{   /* aerial gallery */
-  width: 100%;
+	width: 100%;
 }
 
 .gallery li .bind {
-  display: block;
-  width: 100%;
-  overflow: hidden;
+	display: block;
+	width: 100%;
+	overflow: hidden;
 }
 
 img {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  margin: auto;
-  -webkit-backface-visibility: hidden;
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	-webkit-backface-visibility: hidden;
 }
 
 .bind:hover img{
-  opacity: .85;
-  transition: opacity .25s ease-in;   
+	opacity: .85;
+	transition: opacity .25s ease-in;   
 }
 
 .aspect li .bind {
-  background-color: #FFF;
-  position: relative;
-  height: 0;
-  padding-top: 100%;
+	background-color: #FFF;
+	position: relative;
+	height: 0;
+	padding-top: 100%;
 }
 
 /* ----------------------------- Tablet ---------------------------------*/
 @media screen and (max-width: 1020px) {
-  .gallery li {
-    width: 100%;
-    border: 10px solid #FFF;
-  }
+	.gallery li {
+		width: 100%;
+		border: 10px solid #FFF;
+	}
 
-  .cursor {
-    cursor: default;  
-  }
+	.cursor {
+		cursor: default;  
+	}
 }
 
 /* ----------------------------- Phone ---------------------------------*/
 @media screen and (max-width: 480px) {
-  .gallery li {
-    width: 98.4%;
-    border: 0px solid #FFF;
-  }
+	.gallery li {
+		width: 98.4%;
+		border: 0px solid #FFF;
+	}
 
-  .cursor {
-    cursor: default;  
-  }
+	.cursor {
+		cursor: default;  
+	}
 }

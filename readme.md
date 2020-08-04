@@ -23,3 +23,24 @@ Once all page content is loaded, then the browser will begin swapping the spinne
 ## Hosting
 
 kennysexton.com is a static webpage hosted using github pages. The webpage can be access from both a custom URL ([kennysexton.com](https://kennysexton.com)) and the default URL of ([kennysexton.github.io](http://kennysexton.github.io/)).  More information on how that is done can be found [here](https://help.github.com/en/github/working-with-github-pages/about-custom-domains-and-github-pages).
+
+## Lightbox
+
+This project uses a custom lightbox built from this [lightbox tutorial](https://www.w3schools.com/howto/howto_js_lightbox.asp). This modal supports keyboard navigation using the arrow keys.
+
+```
+// Enable keyboard to navigate though lightbox
+document.onkeydown = function(e) {
+	switch (e.keyCode) {
+		case 37: // left
+			plusSlides(-1);
+			break;
+		case 27: // esc
+			closeModal();
+			break;
+		case 39: // right
+			plusSlides(1);
+			break;
+	}
+};
+```
