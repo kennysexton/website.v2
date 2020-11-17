@@ -7,17 +7,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-
-nav a {
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-
-nav a:hover, a:active, a:focus {
-  text-decoration: none;
-}
-
 .container {
   max-width: 1140px;
   position: relative;
@@ -34,7 +23,6 @@ nav a:hover, a:active, a:focus {
   width: 100%;
   padding: 30px 0;
   z-index: 0;
-
 }
 
 .nav #logo {
@@ -48,6 +36,7 @@ nav a:hover, a:active, a:focus {
 .nav #logo a {
   color: #000;
 }
+
 .nav #logo em {
   color: #fff;
 }
@@ -56,6 +45,7 @@ nav a:hover, a:active, a:focus {
   padding: 0;
   margin: .4em 0 0 0;
 }
+
 .nav ul li {
   padding: 0;
   margin: 0;
@@ -63,11 +53,13 @@ nav a:hover, a:active, a:focus {
   display: inline;
   line-height: 1.5;
 }
+
 .nav ul li > a {
   text-transform: uppercase;
   font-size: 13px !important;
   letter-spacing: .05em;
 }
+
 .nav ul li a {
   font-size: 16px;
   padding: 30px 10px;
@@ -96,7 +88,6 @@ nav a:hover, a:active, a:focus {
   visibility: hidden;
   position: absolute;
 }
-
 
 /* ----------------------------- Mobile Nav for Tablet and Below ---------------------------------*/
 @media screen and (max-width: 1020px) {
