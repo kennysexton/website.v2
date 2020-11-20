@@ -1,3 +1,3 @@
 $(function(){
-  $("#slider1").twentytwenty();
+  $(".slider").twentytwenty();
 });
