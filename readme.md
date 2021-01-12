@@ -14,11 +14,11 @@ I started this project in 2017 as a way to teach myself web development. The con
 
 ![Lazy Loading](https://imgur.com/JZbU6x0.jpg)
 
-The website uses lazy loading avoid performance problems caused from the heavy network demand of loading photos.  The gallery will first load a spinner to keep the page responsive.
+The website uses lazy loading to avoid performance problems caused from the heavy network demand of loading photos.  The gallery will first load a spinner to keep the page responsive.
 
 ![Lighthouse Performance](https://imgur.com/SftVqdT.jpg)
 
-Once all page content is loaded, then the browser will begin swapping the spinner with the appropriate photo.  This process happens fast enough that it is unnoticeable on most network connections.
+Once all page content is loaded, then the browser will begin swapping the spinner with the appropriate photo.  This process happens fast enough that it is unnoticeable on strong network connections.
 
 ## Hosting
 
