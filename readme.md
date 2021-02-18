@@ -31,14 +31,14 @@ This project uses a custom lightbox built from this [lightbox tutorial](https://
 ```
 // Enable keyboard to navigate though lightbox
 document.onkeydown = function (e) {
-  switch (e.keyCode) {
-    case 37: // left
+  switch (e.key) {
+    case 'ArrowLeft': // left
       plusSlides(-1);
       break;
-    case 27: // esc
+    case 'Escape': // esc
       closeModal();
       break;
-    case 39: // right
+    case 'ArrowRight': // right
       plusSlides(1);
       break;
   }
