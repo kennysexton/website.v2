@@ -12,7 +12,7 @@ $(window).on('resize',function(){  // detects change in width
 
 
 function setActive(){ // Set Active
-  $('.nav li [href="' + location.pathname.split("/")[1] + '"]').parent().addClass('active');
+  $('nav li [href="' + location.pathname.split("/")[1] + '"]').parent().addClass('active');
 };
 
 

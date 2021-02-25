@@ -11,11 +11,9 @@ body {
   max-width: 1140px;
   position: relative;
   margin: 0 auto;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
-.nav {
+.navigation {
   position: relative;
   top: 0;
   margin: 0;
@@ -28,7 +26,7 @@ body {
   list-style: none;
 }
 
-.nav #logo {
+.navigation #logo {
   font-size: 20px;
   margin: 0;
   padding: 0;
@@ -37,20 +35,20 @@ body {
   font-weight: bold;
 }
 
-.nav #logo a {
+.navigation #logo a {
   color: #000;
 }
 
-.nav a {
+.navigation a {
   text-decoration: none;
 }
 
-.nav ul {
+.navigation ul {
   padding: .345em 0 0 0;
   margin: 0;
 }
 
-.nav ul li {
+.navigation ul li {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -58,13 +56,13 @@ body {
   line-height: 1.5;
 }
 
-.nav ul li>a {
+.navigation ul li>a {
   text-transform: uppercase;
   font-size: 13px !important;
   letter-spacing: .05em;
 }
 
-.nav ul li a {
+.navigation ul li a {
   font-size: 16px;
   padding: 30px 10px;
   color: #cccccc;
@@ -73,11 +71,11 @@ body {
   transition: 0.5s;
 }
 
-.nav ul li a:hover, .nav ul li a:focus, .nav ul li a:active {
+.navigation ul li a:hover, .navigation ul li a:focus, .navigation ul li a:active {
   color: #000;
 }
 
-.nav ul li.active>a {
+.navigation ul li.active>a {
   color: #000 !important;
 }
 
@@ -110,16 +108,26 @@ body {
 
 /* ----------------------------- Mobile Nav for Tablet and Below ---------------------------------*/
 
+@media screen and (max-width: 1200px) {
+  .nav-container {
+    max-width: 900px;
+  }
+}
+
 @media screen and (max-width: 1020px) {
   #mobile-menu {
     visibility: visible;
     margin-top: calc((55px - 36px)/2);
     margin-bottom: calc((55px - 36px)/2);
   }
-  .nav {
+  .navigation {
     z-index: 5;
     height: 55px;
     line-height: 55px;
+  }
+  
+  .navigation #logo {
+    margin-left: 10%;
   }
   #nav-close {
     visibility: visible;
@@ -147,16 +155,16 @@ body {
     transition: 0.3s;
     text-align: right;
   }
-  .nav ul li a:hover, .nav ul li a:focus, .nav ul li a:active {
+  .navigation ul li a:hover, .navigation ul li a:focus, .navigation ul li a:active {
     color: #FFF;
   }
   #nav-close:hover {
     color: #FFF;
   }
-  .nav ul li.active>a {
+  .navigation ul li.active>a {
     color: #FFF !important;
   }
-  .nav ul li a {
+  .navigation ul li a {
     color: #919191;
   }
 }

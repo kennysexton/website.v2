@@ -1,167 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Here are some of the technical projects I have worked on.">
 
-    <!-- Title -->
-    <title>Kenny - Projects</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Here are some of the technical projects I have worked on.">
 
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-min.css">
-    <link rel="stylesheet" type="text/css" href="css/nav.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+  <!-- Title -->
+  <title>Kenny - Projects</title>
 
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet">
-  </head>
-  <body>
-    <div class="content">
-      <!----------------------------Nav---------------------------->
-      <nav class="nav" role="navigation">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4 col-xs-12">
-              <div id="logo"><a href="index.html">Kenny Sexton</div>
-            </div>
-            <a class="menu" href="#" onclick="openNav()"><img id="mobile-menu" src="icons/hamburger.svg" alt=""/></a>
-            <div class="col-xs-8 text-right menu-1">
-              <div id="mySidebar" class="sidebar"><a id="nav-close" onclick="closeNav()">&times;</a>
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="aerial.html">Aerial</a></li>
-                  <li class="active"><a>Projects</a></li>
-                  <li><a href="books.html">Books</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-min.css">
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" type="text/css" href="css/gallery.css">
 
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>Bracket Maker</h1>
-            <p>A tool for making an NFL playoff bracket. Here users can submit a bracket, view other submissions, as well as view their position on the leaderboard.  Submission and result data is pulled from a custom API running on Heroku.  <a class="text-nowrap" href="https://github.com/kennysexton/Sport-Bracket-Maker" target="_blank" rel="noreferrer noopener">(view project)</a></p>
-          </div>
-          <div class="col-sm-6 bottom-align-text text-right">
-            <h1 class="small">Express, MongoDB, Heroku &nbsp;|&nbsp; 2020</h1>
-          </div>
-          <div class="col-lg-12">
-            <img alt="" src="images/proj-imgs/bracket.png"/>
-          </div>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet">
+</head>
+
+<body>
+  <div class="content">
+    <!----------------------------Nav---------------------------->
+    <nav class="navigation" role="navigation"></nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>Bracket Maker</h1>
+          <p>A tool for making an NFL playoff bracket. Here users can submit a bracket, view other submissions, as well
+            as view their position on the leaderboard. Submission and result data is pulled from a custom API running on
+            Heroku. <a class="text-nowrap" href="https://github.com/kennysexton/Sport-Bracket-Maker" target="_blank"
+              rel="noreferrer noopener">(view project)</a></p>
         </div>
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>Splashdown</h1>
-            <p>A Create React App project for generating a random city homepage.  Each visit to the page selects a random city. A photo from that city is fetched via the unsplash API, as well as the current weather information from Open Weather API. Each time the page is loaded the process repeats. <a class="text-nowrap" href="https://kennysexton.com/splashdown/" target="_blank" rel="noreferrer noopener">(view project)</a></p>
-          </div>
-          <div class="col-sm-6 bottom-align-text text-right">
-            <h1 class="small">React, JSX, CSS  &nbsp;|&nbsp; 2020</h1>
-          </div>
-          <div class="col-lg-12">
-            <img alt="" src="images/proj-imgs/splashdown.png"/>
-          </div>
+        <div class="col-sm-6 bottom-align-text text-right">
+          <h1 class="small">Express, MongoDB, Heroku &nbsp;|&nbsp; 2020</h1>
         </div>
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>Contour Line Printer</h1>
-            <p>A Raspberry Pi Robot car that can print out photos uploaded to a webapp.  Uploaded images are converted to a contour line drawing allowing the robot to print your image at any size. <a class="text-nowrap" href="https://github.com/contourlineprinter/capstone" target="_blank" rel="noreferrer noopener">(view project)</a></p>
-          </div>
-          <div class="col-sm-6 bottom-align-text text-right">
-            <h1 class="small">Python, JSP, JS, Google Cloud &nbsp;|&nbsp; 2019</h1>
-          </div>
-          <div class="col-lg-12">
-            <img alt="" src="images/proj-imgs/contourlineprinter.png"/>
-          </div>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>Invisible I</h1>
-            <p>Team project to create a web tool for viewing metadata associated with images. <a class="text-nowrap" href="https://github.com/kennysexton/Invisible-I" target="_blank" rel="noreferrer noopener">(view project)</a></p>
-          </div>
-          <div class="col-sm-6 bottom-align-text text-right">
-            <h3 class="small">HTML, CSS, SQL, PHP, JS, jQuery  &nbsp;|&nbsp; 2018</h3>
-          </div>
-          <div class="col-lg-12">
-            <img alt="" src="images/proj-imgs/invisible-i.png"/>
-          </div>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>Mammoth Coffee</h1>
-            <p>Mammoth Coffee is a design re-work for a local philly coffee shop. <a class="text-nowrap" href="https://kennysexton.com/MammothCoffee/index.html" target="_blank" rel="noreferrer noopener">(view project)</a></p>
-          </div>
-          <div class="col-sm-6 bottom-align-text text-right">
-            <h3 class="small text-nowrap">HTML, CSS &nbsp;|&nbsp; 2018</h3>
-          </div>
-          <div class="col-lg-12">
-            <img alt="" src="images/proj-imgs/mammoth.png"/>
-          </div>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>kennysexton.com</h1>
-            <p>A project I started to teach myself web development. It uses custom domain redirection to a static github page. While it is one of my oldest projects,  it gets updated often as I learn better web practices. <a class="text-nowrap" href="https://github.com/kennysexton/kennysexton.github.io" target="_blank" rel="noreferrer noopener">(view project)</a></p>
-          </div>
-          <div class="col-sm-6 bottom-align-text text-right">
-            <h1 class="small">HTML, CSS, JS &nbsp;|&nbsp; 2017</h1>
-          </div>
-          <div class="col-lg-12">
-            <img src="images/proj-imgs/kennysexton.com.png"/>
-          </div>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>File System</h1>
-            <p>A scaleable FAT file system that operates on an empty drive. Supports a directory structure as well as the ability to add, delete, and write files. <a class="text-nowrap" href="https://github.com/kennysexton/Filesystem" target="_blank" rel="noreferrer noopener">(view project)</a></p>
-          </div>
-          <div class="col-sm-6 bottom-align-text text-right">
-            <h1 class="small">C  &nbsp;|&nbsp; 2017</h1>
-          </div>
-          <div class="col-lg-12">
-            <img alt="" src="images/proj-imgs/filesystem.jpg"/>
-          </div>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>Linux Shell</h1>
-            <p>Built a functional shell in C.  Allows for advanced features such as pipes, forks, file reading and writing.   <a class="text-nowrap" href="https://github.com/kennysexton/Shell-Project" target="_blank" rel="noreferrer noopener">(view project)</a></p>
-          </div>
-          <div class="col-sm-6 bottom-align-text text-right">
-            <h3 class="small">C &nbsp;|&nbsp; 2017</h3>
-          </div>
-          <div class="col-lg-12">
-            <img alt=""  src="images/proj-imgs/shell.jpg"/>
-          </div>
+        <div class="col-lg-12">
+          <img alt="" src="images/proj-imgs/bracket.png" />
         </div>
       </div>
       <br>
-      <div id="footer"></div>   
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>Splashdown</h1>
+          <p>A Create React App project for generating a random city homepage. Each visit to the page selects a random
+            city. A photo from that city is fetched via the unsplash API, as well as the current weather information
+            from Open Weather API. Each time the page is loaded the process repeats. <a class="text-nowrap"
+              href="https://kennysexton.com/splashdown/" target="_blank" rel="noreferrer noopener">(view project)</a>
+          </p>
+        </div>
+        <div class="col-sm-6 bottom-align-text text-right">
+          <h1 class="small">React, JSX, CSS &nbsp;|&nbsp; 2020</h1>
+        </div>
+        <div class="col-lg-12">
+          <img alt="" src="images/proj-imgs/splashdown.png" />
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>Contour Line Printer</h1>
+          <p>A Raspberry Pi Robot car that can print out photos uploaded to a webapp. Uploaded images are converted to a
+            contour line drawing allowing the robot to print your image at any size. <a class="text-nowrap"
+              href="https://github.com/contourlineprinter/capstone" target="_blank" rel="noreferrer noopener">(view
+              project)</a></p>
+        </div>
+        <div class="col-sm-6 bottom-align-text text-right">
+          <h1 class="small">Python, JSP, JS, Google Cloud &nbsp;|&nbsp; 2019</h1>
+        </div>
+        <div class="col-lg-12">
+          <img alt="" src="images/proj-imgs/contourlineprinter.png" />
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>Invisible I</h1>
+          <p>Team project to create a web tool for viewing metadata associated with images. <a class="text-nowrap"
+              href="https://github.com/kennysexton/Invisible-I" target="_blank" rel="noreferrer noopener">(view
+              project)</a></p>
+        </div>
+        <div class="col-sm-6 bottom-align-text text-right">
+          <h3 class="small">HTML, CSS, SQL, PHP, JS, jQuery &nbsp;|&nbsp; 2018</h3>
+        </div>
+        <div class="col-lg-12">
+          <img alt="" src="images/proj-imgs/invisible-i.png" />
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>Mammoth Coffee</h1>
+          <p>Mammoth Coffee is a design re-work for a local philly coffee shop. <a class="text-nowrap"
+              href="https://kennysexton.com/MammothCoffee/index.html" target="_blank" rel="noreferrer noopener">(view
+              project)</a></p>
+        </div>
+        <div class="col-sm-6 bottom-align-text text-right">
+          <h3 class="small text-nowrap">HTML, CSS &nbsp;|&nbsp; 2018</h3>
+        </div>
+        <div class="col-lg-12">
+          <img alt="" src="images/proj-imgs/mammoth.png" />
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>kennysexton.com</h1>
+          <p>A project I started to teach myself web development. It uses custom domain redirection to a static github
+            page. While it is one of my oldest projects, it gets updated often as I learn better web practices. <a
+              class="text-nowrap" href="https://github.com/kennysexton/kennysexton.github.io" target="_blank"
+              rel="noreferrer noopener">(view project)</a></p>
+        </div>
+        <div class="col-sm-6 bottom-align-text text-right">
+          <h1 class="small">HTML, CSS, JS &nbsp;|&nbsp; 2017</h1>
+        </div>
+        <div class="col-lg-12">
+          <img src="images/proj-imgs/kennysexton.com.png" />
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>File System</h1>
+          <p>A scaleable FAT file system that operates on an empty drive. Supports a directory structure as well as the
+            ability to add, delete, and write files. <a class="text-nowrap"
+              href="https://github.com/kennysexton/Filesystem" target="_blank" rel="noreferrer noopener">(view
+              project)</a></p>
+        </div>
+        <div class="col-sm-6 bottom-align-text text-right">
+          <h1 class="small">C &nbsp;|&nbsp; 2017</h1>
+        </div>
+        <div class="col-lg-12">
+          <img alt="" src="images/proj-imgs/filesystem.jpg" />
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>Linux Shell</h1>
+          <p>Built a functional shell in C. Allows for advanced features such as pipes, forks, file reading and writing.
+            <a class="text-nowrap" href="https://github.com/kennysexton/Shell-Project" target="_blank"
+              rel="noreferrer noopener">(view project)</a></p>
+        </div>
+        <div class="col-sm-6 bottom-align-text text-right">
+          <h3 class="small">C &nbsp;|&nbsp; 2017</h3>
+        </div>
+        <div class="col-lg-12">
+          <img alt="" src="images/proj-imgs/shell.jpg" />
+        </div>
+      </div>
     </div>
-    <!-- JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <br>
+    <div id="footer"></div>
+  </div>
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <!-- JS -->
-    <script src="js/nav.js"></script>
-    <script src="js/htmlReuse.js"></script>
+  <!-- JS -->
+  <script src="js/nav.js"></script>
+  <script src="js/htmlReuse.js"></script>
 
-  </body>
+</body>
+
 </html>
