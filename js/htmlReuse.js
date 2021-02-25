@@ -3,7 +3,7 @@ $(function(){
 });
 
 $(function(){
-	$('#navBar').load('htmlSegments/navBar.html', function(){
+	$('nav').load('htmlSegments/navBar.html', function(){
 		setActive(); // Add active class to current tab
 	});
 
