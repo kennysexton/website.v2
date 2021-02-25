@@ -3,5 +3,8 @@ $(function(){
 });
 
 $(function(){
-	$('#navBar').load('htmlSegments/navBar.html');
+	$('#navBar').load('htmlSegments/navBar.html', function(){
+		setActive(); // Add active class to current tab
+	});
+
 });
