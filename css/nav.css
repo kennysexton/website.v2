@@ -1,5 +1,5 @@
-
 body {
+  margin: 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -7,42 +7,48 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.container {
+.nav-container {
   max-width: 1140px;
   position: relative;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
-.nav {
+.navigation {
   position: relative;
   top: 0;
   margin: 0;
-  padding: 0;
   width: 100%;
-  padding: 30px 0;
+  height: 95px;
+  line-height: 95px;
   z-index: 0;
+  /* Bootstrap replace */
+  padding-left: 0;
+  list-style: none;
 }
 
-.nav #logo {
+.navigation #logo {
   font-size: 20px;
   margin: 0;
   padding: 0;
+  white-space: nowrap;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.nav #logo a {
+.navigation #logo a {
   color: #000;
 }
 
-.nav ul {
-  padding: 0;
-  margin: .4em 0 0 0;
+.navigation a {
+  text-decoration: none;
 }
 
-.nav ul li {
+.navigation ul {
+  padding: .345em 0 0 0;
+  margin: 0;
+}
+
+.navigation ul li {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -50,13 +56,13 @@ body {
   line-height: 1.5;
 }
 
-.nav ul li > a {
+.navigation ul li>a {
   text-transform: uppercase;
   font-size: 13px !important;
   letter-spacing: .05em;
 }
 
-.nav ul li a {
+.navigation ul li a {
   font-size: 16px;
   padding: 30px 10px;
   color: #cccccc;
@@ -65,11 +71,11 @@ body {
   transition: 0.5s;
 }
 
-.nav ul li a:hover, .nav ul li a:focus, .nav ul li a:active {
+.navigation ul li a:hover, .navigation ul li a:focus, .navigation ul li a:active {
   color: #000;
 }
 
-.nav ul li.active > a {
+.navigation ul li.active>a {
   color: #000 !important;
 }
 
@@ -77,7 +83,9 @@ body {
   visibility: hidden;
   position: absolute;
   left: 88%;
-  padding:6px;
+  padding: 6px;
+  max-width: none;
+  max-height: none;
 }
 
 #nav-close {
@@ -85,25 +93,48 @@ body {
   position: absolute;
 }
 
-/* ----------------------------- Mobile Nav for Tablet and Below ---------------------------------*/
-@media screen and (max-width: 1020px) {
+/* -- Bootstrap replace -- */
 
+.col-4 {
+  width: 33.33333%;
+  float: left;
+}
+
+.col-8 {
+  width: 66.66667%;
+  text-align: right;
+  float: left;
+}
+
+/* ----------------------------- Mobile Nav for Tablet and Below ---------------------------------*/
+
+@media screen and (max-width: 1200px) {
+  .nav-container {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
   #mobile-menu {
     visibility: visible;
+    margin-top: calc((55px - 36px)/2);
+    margin-bottom: calc((55px - 36px)/2);
   }
-
-  .nav {
+  .navigation {
     z-index: 5;
-    padding: 10px 0;
+    height: 55px;
+    line-height: 55px;
   }
-
-  #nav-close{
+  
+  .navigation #logo {
+    margin-left: 10%;
+  }
+  #nav-close {
     visibility: visible;
     font-size: 30px;
     right: 0px;
     top: 0px
   }
-
   .sidebar {
     height: 100%;
     width: 0px;
@@ -116,31 +147,24 @@ body {
     transition: 0.5s;
     padding-top: 55px;
   }
-
   .sidebar a {
     padding: 5px 10px 5px 200px;
-    text-decoration: none;
     font-size: 25px;
     color: #919191;
     display: block;
     transition: 0.3s;
     text-align: right;
   }
-
-  .nav ul li a:hover, .nav ul li a:focus, .nav ul li a:active {
+  .navigation ul li a:hover, .navigation ul li a:focus, .navigation ul li a:active {
     color: #FFF;
   }
-
-  #nav-close:hover{
+  #nav-close:hover {
     color: #FFF;
   }
-
-  .nav ul li.active > a {
+  .navigation ul li.active>a {
     color: #FFF !important;
   }
-
-  .nav ul li a {
-    color: #919191;	
+  .navigation ul li a {
+    color: #919191;
   }
-
 }
