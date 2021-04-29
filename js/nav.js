@@ -12,7 +12,11 @@ $(window).on('resize', function () {  // detects change in width
 
 
 function setActive() { // Set Active
-  $('nav li [href="' + location.pathname.split("/")[1] + '"]').parent().addClass('active');
+  if(location.pathname.length == 1){ // By default set index.html as active
+    $('nav li [href="index.html"]').parent().addClass('active');
+  } else {
+    $('nav li [href="' + location.pathname.split("/")[1] + '"]').parent().addClass('active');
+  }
 };
 
 
