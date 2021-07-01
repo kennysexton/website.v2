@@ -1,6 +1,6 @@
 # [kennysexton.com](https://kennysexton.com)
 
-I started this project in 2017 as a way to teach myself web development. The content of this site has changed many times,  even once starting from scratch [(version 1)](https://kennysexton.com/website.v1/index.html).  I visit this site every so often to update content as well as make improvements to the way content is delivered.
+I started this project in 2017 as a way to teach myself web development. The content of this site has changed many times,  even once starting from scratch [(v1)](https://kennysexton.com/website.v1/index.html).  I visit this site every so often to update content as well as make improvements to the way content is delivered.
 
 
 ## Responsive
