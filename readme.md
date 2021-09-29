@@ -7,7 +7,7 @@ I started this project in 2017 as a way to teach myself web development. The con
 
 ![Desktop Version](https://imgur.com/hOadEP2.jpg)
 
-![Mobile Verson](https://imgur.com/49xK5i9.jpg)
+![Mobile Version](https://imgur.com/49xK5i9.jpg)
 
 ## Lazy Loading
 
@@ -22,7 +22,7 @@ Once all page content is loaded, then the browser will begin swapping the spinne
 
 ## Hosting
 
-kennysexton.com is a static webpage hosted using github pages. The webpage can be access from both a custom URL ([kennysexton.com](https://kennysexton.com)) and the default URL of ([kennysexton.github.io](http://kennysexton.github.io/)).  More information on how that is done can be found [here](https://help.github.com/en/github/working-with-github-pages/about-custom-domains-and-github-pages).
+kennysexton.com is a static webpage hosted using GitHub pages. The webpage can be access from both a custom URL ([kennysexton.com](https://kennysexton.com)) and the default URL of ([kennysexton.github.io](http://kennysexton.github.io/)).  More information on how that is done can be found [here](https://help.github.com/en/github/working-with-github-pages/about-custom-domains-and-github-pages).
 
 ## Lightbox
 
