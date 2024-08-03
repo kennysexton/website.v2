@@ -1,4 +1,8 @@
-# [kennysexton.com](https://kennysexton.com)
+> [!NOTE]
+> I rebuilt the website from scratch using Next.js, the currently live codebase lives here [Github Repo](https://github.com/kennysexton/kennysexton.com)
+
+
+## Background
 
 I started this project in 2017 as a way to teach myself web development. The content of this site has changed many times,  even once starting from scratch [(v1)](https://kennysexton.com/website.v1/index.html).  I visit this site every so often to update content as well as make improvements to the way content is delivered.
 
